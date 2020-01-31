@@ -1,4 +1,3 @@
-/*
 #include "libft/libft.h"
 #include <stdio.h>
 #include "ft_printf.h"
@@ -104,7 +103,7 @@ void rr(p_list *p)
 void pb(p_list *p)
 {
     int i;
-    i = p->mlen;
+    i = p->b_size;
     if (p->a_size == 0)
         return;
     else
@@ -126,7 +125,7 @@ void pb(p_list *p)
 void pa(p_list *p)
 {
     int i;
-    i = p->mlen;
+    i = p->a_size;
     if (p->b_size == 0)
         return;
     else
@@ -236,4 +235,3 @@ int main (int argc, char** argv)
     // pri(&p);
     return(0);
 }
-*/

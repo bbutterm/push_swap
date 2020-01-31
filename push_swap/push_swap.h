@@ -13,8 +13,10 @@ typedef struct s_glist
     int min;
     int *rbops;
     int *sumops;
+    int *check_point;
     int mid;
     int max; //mmm values
     int a_size;
     int b_size;
+    int min_op_in;
 }               p_list;

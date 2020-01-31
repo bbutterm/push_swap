@@ -313,7 +313,8 @@ void sortmid(p_list *p)
     if (p->ari[0] < p->ari[1])
         ra(p);
     pa(p);
-    return;   
+    printf("sortmidok\n");
+    return;
 }
  void rbcount(p_list *p)
  {
@@ -348,20 +349,21 @@ void sortmid(p_list *p)
 	int curr_in;
 	int n;
 
-	i = 0;
 	j = 0;
 	n = 0;
-	curr_min = p->min;
     while (j < p->b_size)
     {
+		curr_min = p->min;
+    	i = 0;
     	while (i < p->a_size)
 		{
-    		if (p->bri[i] < p->ari[j])
+    		if (p->ari[i] < p->bri[j])
 			{
-    			if (p->bri[i] > curr_min)
+    			if (p->ari[i] >= curr_min)
     			{
-					curr_min = p->bri[i];
+					curr_min = p->ari[i];
 					curr_in = i;
+					p->check_point[n] = i;
 				}
 			}
     		i++;
@@ -382,6 +384,78 @@ void sortmid(p_list *p)
     	j++;
     }
  }
+
+ int min_operation(p_list *p)
+ {
+	int min_op;
+	int min_op_in;
+	int i;
+
+	i = 0;
+	min_op = p->sumops[0];
+	min_op_in = 0;
+	while (i < p->b_size)
+	{
+		if (p->sumops[i] <= min_op)
+		{
+			min_op = p->sumops[i];
+			min_op_in = i;
+		}
+		i++;
+	}
+	return (min_op_in);
+ }
+
+void	rb_ops(p_list *p)
+{
+	int med;
+	//int i;
+	//int j;
+
+	//i = p->rbops[p->min_op_in];
+	//j = p->sumops[p->min_op_in];
+	while (p->rbops[p->min_op_in] > 0)
+	{
+		med = p->b_size / 2;
+		if (p->min_op_in < med)
+		{
+			//write(1, "rb\n", 3);
+			rb(p);
+		}
+		else if (p->min_op_in >= med)
+		{
+			//write(1, "rrb\n", 4);
+			rrb(p);
+		}
+		p->rbops[p->min_op_in]--;
+		p->sumops[p->min_op_in]--;
+	}
+}
+
+void	ra_ops(p_list *p)
+{
+	int med;
+	//int i;
+
+	//i = p->sumops[p->min_op_in];
+	while (p->sumops[p->min_op_in] > 0)
+	{
+		med = (p->a_size - 1) / 2;
+		if (p->check_point[p->min_op_in] < med)
+		{
+			//write(1, "ra\n", 3);
+			ra(p);
+		}
+		else if (p->check_point[p->min_op_in] >= med)
+		{
+			//write(1, "rra\n", 4);
+			rra(p);
+		}
+		p->sumops[p->min_op_in]--;
+	}
+	//write(1, "pa\n", 3);
+	pa(p);
+}
 
 int main (int argc, char** argv)
 {
@@ -406,6 +480,8 @@ int main (int argc, char** argv)
         return(0);
     if (!(p.sumops = (int *)ft_memalloc(sizeof(int)*(argc + 1))))
         return(0);
+	if (!(p.check_point = (int *)ft_memalloc(sizeof(int)*(argc + 1))))
+		return(0);
     p.mlen = (argc-1); //massive len
     p.a_size = p.mlen;
     p.b_size = 0;
@@ -425,13 +501,20 @@ int main (int argc, char** argv)
         sort3(&p);
     }
     sortmid(&p);
-    rbcount(&p);
-    racount(&p);
-    printf("bsize = %d \n", p.b_size);
-    while (n < 5)
-    {
-        printf("%d",p.sumops[n]);
-        n++;
-    }
+
+    while (p.b_size > 0)
+	{
+		rbcount(&p);
+		racount(&p);
+		p.min_op_in = min_operation(&p);
+    	rb_ops(&p);
+    	ra_ops(&p);
+	}
+//    printf("bsize = %d \n", p.b_size);
+//    while (n < 5)
+//    {
+//        printf("%d",p.sumops[n]);
+//        n++;
+//    }
     return(0);
 }   
