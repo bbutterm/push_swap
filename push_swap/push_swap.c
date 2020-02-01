@@ -431,7 +431,26 @@ void	rb_ops(p_list *p)
 		p->sumops[p->min_op_in]--;
 	}
 }
+void	final_sort(p_list *p)
+{
+	int i;
+	int med;
 
+	i = 0;
+	med = p->a_size / 2;
+	while (p->ari[i] != p->min)
+		i++;
+	if (i < med)
+	{
+		while (p->ari[0] != p->min)
+			ra(p);
+	}
+	else if (i >= med)
+	{
+		while (p->ari[0] != p->min)
+			rra(p);
+	}
+}
 void	ra_ops(p_list *p)
 {
 	int med;
