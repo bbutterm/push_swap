@@ -18,8 +18,9 @@ void checker(p_list *p)
 void visual(int i) {
     while (i >= 0)
     {
-        write(1,"[]",2);
+        write(1,"\033[0;32m\xE2\x99\xBF",11);
         i--;
+        write(1,"\033[0m",4);
     }
 }
 int weight(v_list *vis,int num)
