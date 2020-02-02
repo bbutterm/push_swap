@@ -15,23 +15,45 @@ void checker(p_list *p)
     }
     return (ft_putstr("OK\n"));
 }
+void visual(int i) {
+    while (i >= 0)
+    {
+        write(1,"[]",2);
+        i--;
+    }
+}
+int weight(v_list *vis,int num)
+{
+    while (vis->num != num)
+    {
+        vis = vis->next;
+    }
+    return vis->weight;
+}
 void pri(p_list *p)
 {
     int i;
+    int w;
     i = 0;
     // ft_printf("%d\n",p->a_size);
     // ft_printf("%d\n",p->b_size);
 	printf("stack a \n");
     while (i < p->a_size)
     {
-		printf("%d\n", p->ari[i]);
+		printf("%d", p->ari[i]);
+		w = weight(p->vis,p->ari[i]);
+		visual(w);
+		printf("\n");
         i++;
     }
     i = 0;
 	printf("stack b \n");
     while (i < p->b_size)
     {
-		printf("%d\n", p->bri[i]);
+		printf("%d", p->bri[i]);
+        w = weight(p->vis,p->bri[i]);
+        visual(w);
+        write(1,"\n",1);
         i++;
     }
     checker(p);
@@ -181,7 +203,24 @@ void rrr(p_list *p)
     if (p->print == 1)
 		printf("rrr\n");
 }
+void ssort(int *v, int size)
+{
+    int i;
+    int tmp;
+    i = 0;
 
+    while (i < size - 1)
+    {
+        if (v[i] > v[i+1])
+        {
+            tmp = v[i];
+            v[i] = v[i+1];
+            v[i+1] = tmp;
+            i = -1;
+        }
+        i++;
+    }
+}
 void swap(p_list *p)
 {
     char *line;
@@ -210,31 +249,73 @@ void swap(p_list *p)
         pri(p);
         p->ops++;
     }
+}
+void vinit(p_list *p, int *v,int size)
+{
+    int i;
+    v_list *tmp;
 
+    tmp = p->vis;
+    i = 0;
+    while (size >= 0)
+    {
+        tmp->num = v[i];
+        tmp->weight = i;
+        tmp = tmp->next;
+        i++;
+        size--;
+    }
+}
+void pushback(p_list *p)
+{
+    v_list *tmp;
+
+    if (!p->vis)
+        p->vis = (v_list *)ft_memalloc(sizeof(v_list));
+    else{
+        tmp = p->vis;
+        while (tmp->next)
+            tmp = tmp->next;
+        tmp->next = (v_list *) ft_memalloc(sizeof(v_list));
+    }
 }
 int main (int argc, char** argv)
 {
     p_list p;
-
+    int *v;
     int i;
+    int k;
+    k = argc -1;
     p.print = 0;
     i = 1;
     if(!(p.ari = (int *)ft_memalloc(sizeof(int) * (argc-1))))
         return(0);
     if(!(p.bri = (int *)ft_memalloc(sizeof(int) * (argc-1))))
         return(0);
+//    if(!(p.vis = ft_memalloc(sizeof(v_list)*(argc-1))))
+//        return(0);
+    while (k >= 0)
+    {
+        pushback(&p);
+        k--;
+    }
+    if(!(v = (int *)ft_memalloc(sizeof(int) * (argc-1))))
+        return(0);
     p.mlen = argc-1; //massive len
     p.a_size = p.mlen;
     p.b_size = 0;
-
     while (i < argc)
     {
         p.ari[i-1] = atoi(argv[i]);
+        v[i-1] = atoi(argv[i]);
         i++;
     }
+    ssort(v,p.mlen);
+    vinit(&p,v,p.mlen-1);
     swap(&p);
     printf("%d",p.ops);
     // sa(p.ari);
     // pri(&p);
+    printf("\nnumbers = %d\n",p.a_size);
     return(0);
 }
