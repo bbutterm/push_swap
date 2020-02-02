@@ -14,6 +14,7 @@ typedef struct s_glist
     int *rbops;
     int *sumops;
     int *check_point;
+    int ops;
     int mid;
     int max; //mmm values
     int a_size;

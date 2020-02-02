@@ -208,7 +208,9 @@ void swap(p_list *p)
         if (!ft_strcmp(line,"rrr"))
             rrr(p);
         pri(p);
+        p->ops++;
     }
+
 }
 int main (int argc, char** argv)
 {
@@ -231,6 +233,7 @@ int main (int argc, char** argv)
         i++;
     }
     swap(&p);
+    printf("%d",p.ops);
     // sa(p.ari);
     // pri(&p);
     return(0);

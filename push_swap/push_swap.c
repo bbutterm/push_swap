@@ -529,6 +529,7 @@ int main (int argc, char** argv)
     	rb_ops(&p);
     	ra_ops(&p);
 	}
+    final_sort(&p);
 //    printf("bsize = %d \n", p.b_size);
 //    while (n < 5)
 //    {
