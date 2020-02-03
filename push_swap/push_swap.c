@@ -149,68 +149,7 @@ void rrr(p_list *p)
     rrb(p);
     if (p->print == 1)
 		printf("rrr\n");
-}       
-int checkerv(int *v, int size)
-{
-    int i;
-    i = 0;
-    while (v[i] < v[i + 1])
-    {
-        i++;
-        if (i == size)
-        {
-                return(1);
-        }
-    }
-    return(0);
 }
-
-int checker(p_list *p)
-{
-    int i;
-    i = 0;
-    while (p->ari[i] < p->ari[i + 1])
-    {
-        i++;
-        if (i == p->a_size)
-        {
-                return(1);
-        }
-    }
-    return(0);
-}
-              
-void pri(p_list *p)
-{
-    int i;
-    i = 0;
-	printf("stack a \n");
-    while (i < p->a_size)
-    {
-		printf("%d\n", p->ari[i]);
-        i++;
-    }
-    i = 0;
-	printf("stack b \n");
-    while (i < p->b_size)
-    {
-		printf("%d\n", p->bri[i]);
-        i++;
-    }
-    checker(p);
-    return;
-}
-void priv(int *v, int size)
-{   
-    int i;
-    i = 0;
-    while (i < size)
-    {
-        printf("%d\n",v[i]);
-        i++;
-    }
-}
-
 void ssort(int *v, int size)
 {
     int i;
@@ -230,15 +169,6 @@ void ssort(int *v, int size)
     }
 }
 
-void mmmvalues(int *v,p_list *p)    
-{
-    int b;
-    b = p->mlen;
-    p->min = v[0];
-    p->mid = v[b/2];
-    p->max = v[p->mlen-1];
-    return;
-}
 int sort3(p_list *p)
 {
     if ((p->ari[0] > p->ari[1]) && (p->ari[1] < p->ari[2]) && (p->ari[0] < p->ari[2])){
@@ -263,37 +193,7 @@ int sort3(p_list *p)
     }
     return(0);
 }
-int primal_algorithm(p_list *p)
-{  
-    int i;
-    int k;
-    i = 0;
-    while (p->a_size > 1)
-    {
-        k = p->ari[0];
-        while (i != p->a_size)
-        {
-            if (k > p->ari[i])
-            {
-                k = p->ari[i];
-                continue;
-            }
-            i++;
-        }
-        i = 0;
-        if (p->ari[0] == k)
-            pb(p);
-        else
-            ra(p);
-        if (p->a_size == 1)
-            break;
-    }
-    while (p->b_size > 0)
-    {
-        pa(p);
-    }
-    return(1);
-}
+
 void sortmid(p_list *p)
 {
     int i;
@@ -373,13 +273,6 @@ void sortmid(p_list *p)
     		p->sumops[n] = curr_in + 1 + p->rbops[n];
     	else if (curr_in >= med)
     		p->sumops[n] = (i - 1) - curr_in + p->rbops[n];
-//    	else if (curr_in == med)
-//		{
-//    		if ((i - 1) % 2 == 0)
-//				p->sumops[n] = curr_in + 1 + p->rbops[n];
-//			else
-//				p->sumops[n] = (i - 1) - curr_in + p->rbops[n];
-//		}
 		n++;
     	j++;
     }
@@ -409,11 +302,6 @@ void sortmid(p_list *p)
 void	rb_ops(p_list *p)
 {
 	int med;
-	//int i;
-	//int j;
-
-	//i = p->rbops[p->min_op_in];
-	//j = p->sumops[p->min_op_in];
 	while (p->rbops[p->min_op_in] > 0)
 	{
 		med = p->b_size / 2;
@@ -475,53 +363,49 @@ void	ra_ops(p_list *p)
 	//write(1, "pa\n", 3);
 	pa(p);
 }
-int sort5(p_list *p) {
+void sort5(p_list *p) {
     pb(p);
     pb(p);
     sort3(p);
     final_sort(p);
-//    while (p->b_size > 0) {
-//        rbcount(p);
-//        racount(p);
-//        p->min_op_in = min_operation(p);
-//        rb_ops(p);
-//        ra_ops(p);
-//    }
-//    final_sort(p);
-    return 1;
+}
+int init(p_list *p, int argc)
+{
+    if(!(p->ari = (int *)malloc(sizeof(int) * (argc-1))))
+        return(0);
+    if(!(p->bri = (int *)malloc(sizeof(int) * (argc-1))))
+        return(0);
+    if(!(p->v = (int *)malloc(sizeof(int) * (argc - 1))))
+        return(0);
+    if (!(p->rbops = (int *)ft_memalloc(sizeof(int)*(argc + 1))))
+        return(0);
+    if (!(p->sumops = (int *)ft_memalloc(sizeof(int)*(argc + 1))))
+        return(0);
+    if (!(p->check_point = (int *)ft_memalloc(sizeof(int)*(argc + 1))))
+        return(0);
+    return (1);
 }
 int main (int argc, char** argv)
 {
     p_list p;
     int i;
-    int *v;
+    //int *v;
     p.print = 1;
     i = 1;
-    if(!(p.ari = (int *)malloc(sizeof(int) * (argc-1))))
-        return(0);
-    if(!(p.bri = (int *)malloc(sizeof(int) * (argc-1))))
-        return(0);
-    if(!(v = (int *)malloc(sizeof(int) * (argc - 1))))
-        return(0);
-    if (!(p.rbops = (int *)ft_memalloc(sizeof(int)*(argc + 1))))
-        return(0);
-    if (!(p.sumops = (int *)ft_memalloc(sizeof(int)*(argc + 1))))
-        return(0);
-	if (!(p.check_point = (int *)ft_memalloc(sizeof(int)*(argc + 1))))
-		return(0);
+    init(&p,argc);
     p.mlen = (argc-1); //massive len
     p.a_size = p.mlen;
     p.b_size = 0;
     while (i < argc)
     {
-        v[i-1] = atoi(argv[i]);
+        p.v[i-1] = atoi(argv[i]);
         p.ari[i-1] = atoi(argv[i]);
         i++;
     }
-    ssort(v,p.mlen);
-    p.min = v[0];
-    p.max = v[p.a_size-1];
-    p.mid = v[(p.a_size-1)/2];
+    ssort(p.v,p.mlen);
+    p.min = p.v[0];
+    p.max = p.v[p.a_size-1];
+    p.mid = p.v[(p.a_size-1)/2];
     //priv(v,p.mlen);
     if (p.a_size == 3)
     {

@@ -279,26 +279,31 @@ void pushback(p_list *p)
         tmp->next = (v_list *) ft_memalloc(sizeof(v_list));
     }
 }
+int init_checker(p_list *p, int argc)
+{
+    if(!(p->ari = (int *)ft_memalloc(sizeof(int) * (argc-1))))
+        return(0);
+    if(!(p->bri = (int *)ft_memalloc(sizeof(int) * (argc-1))))
+        return(0);
+    return (1);
+}
 int main (int argc, char** argv)
 {
     p_list p;
-    int *v;
+    //int *v;
     int i;
     int k;
-
+    init_checker(&p,argc);
     k = argc -1;
     p.print = 0;
     i = 1;
-    if(!(p.ari = (int *)ft_memalloc(sizeof(int) * (argc-1))))
-        return(0);
-    if(!(p.bri = (int *)ft_memalloc(sizeof(int) * (argc-1))))
-        return(0);
+
     while (k >= 0)
     {
         pushback(&p);
         k--;
     }
-    if(!(v = (int *)ft_memalloc(sizeof(int) * (argc-1))))
+    if(!(p.v = (int *)ft_memalloc(sizeof(int) * (argc-1))))
         return(0);
     p.mlen = argc-1; //massive len
     p.a_size = p.mlen;
@@ -306,11 +311,11 @@ int main (int argc, char** argv)
     while (i < argc)
     {
         p.ari[i-1] = atoi(argv[i]);
-        v[i-1] = atoi(argv[i]);
+        p.v[i-1] = atoi(argv[i]);
         i++;
     }
-    ssort(v,p.mlen);
-    vinit(&p,v,p.mlen-1);
+    ssort(p.v,p.mlen);
+    vinit(&p,p.v,p.mlen-1);
     swap(&p);
     //pri(&p);
     // sa(p.ari);
