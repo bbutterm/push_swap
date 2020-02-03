@@ -389,6 +389,7 @@ int main (int argc, char** argv)
 {
     p_list p;
     int i;
+    p.flags = 0;
     //int *v;
     p.print = 1;
     i = 1;

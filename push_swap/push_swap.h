@@ -17,6 +17,7 @@ typedef struct s_glist
     int mlen; //massive len
     int print;
     int min;
+    int flags;
     int *v;
     int *rbops;
     int *sumops;

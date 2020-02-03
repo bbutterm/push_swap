@@ -15,12 +15,13 @@ void checker(p_list *p)
     }
     return (ft_putstr("OK\n"));
 }
-void visual(int i) {
-    while (i >= 0)
-    {
-        write(1,"\033[0;32m\xE2\x99\xBF ",12);
-        i--;
-        write(1,"\033[0m",4);
+void visual(int i,p_list *p) {
+    if (p->flags == 2) {
+        while (i >= 0) {
+            write(1, "\033[0;32m\xE2\x99\xBF ", 12);
+            i--;
+            //write(1, "\033[0m", 4);
+        }
     }
 }
 int weight(v_list *vis,int num)
@@ -41,7 +42,7 @@ void pri(p_list *p)
     {
 		printf("%d\n", p->ari[i]);
 		w = weight(p->vis,p->ari[i]);
-		visual(w);
+		visual(w,p);
         write(1,"\n",1);
         i++;
     }
@@ -51,12 +52,11 @@ void pri(p_list *p)
     {
 		printf("%d\n", p->bri[i]);
         w = weight(p->vis,p->bri[i]);
-        visual(w);
+        visual(w,p);
         write(1,"\n",1);
         i++;
     }
-    checker(p);
-    return;
+    //checker(p);
 }
 void sa(p_list *p)
 {
@@ -220,34 +220,41 @@ void ssort(int *v, int size)
         i++;
     }
 }
+void ifswap(p_list *p,char *line)
+{
+    if (!ft_strcmp(line,"sa"))
+        sa(p);
+    if (!ft_strcmp(line,"sb"))
+        sb(p);
+    if (!ft_strcmp(line,"ss"))
+        ss(p);
+    if (!ft_strcmp(line,"pa"))
+        pa(p);
+    if (!ft_strcmp(line,"pb"))
+        pb(p);
+    if (!ft_strcmp(line,"ra"))
+        ra(p);
+    if (!ft_strcmp(line,"rb"))
+        rb(p);
+    if (!ft_strcmp(line,"rra"))
+        rra(p);
+    if (!ft_strcmp(line,"rrb"))
+        rrb(p);
+    if (!ft_strcmp(line,"rrr"))
+        rrr(p);
+}
 void swap(p_list *p)
 {
     char *line;
     while(get_next_line(0,&line))
     {
-        if (!ft_strcmp(line,"sa"))
-            sa(p);
-        if (!ft_strcmp(line,"sb"))
-            sb(p);
-        if (!ft_strcmp(line,"ss"))
-            ss(p);
-        if (!ft_strcmp(line,"pa"))
-            pa(p);
-        if (!ft_strcmp(line,"pb"))
-            pb(p);
-        if (!ft_strcmp(line,"ra"))
-            ra(p);
-        if (!ft_strcmp(line,"rb"))
-            rb(p);
-        if (!ft_strcmp(line,"rra"))
-            rra(p);
-        if (!ft_strcmp(line,"rrb"))
-            rrb(p);
-        if (!ft_strcmp(line,"rrr"))
-            rrr(p);
-        pri(p);
+        ifswap(p, line);
+        if (p->flags > 0) {
+            pri(p);
+        }
+        checker(p);
         p->ops++;
-        printf("operations = %d \n",p->ops);
+        //printf("operations = %d \n",p->ops);
     }
 }
 void vinit(p_list *p, int *v,int size)
@@ -290,7 +297,7 @@ int init_checker(p_list *p, int argc)
 int main (int argc, char** argv)
 {
     p_list p;
-    //int *v;
+    p.flags = 2;
     int i;
     int k;
     init_checker(&p,argc);
