@@ -20,7 +20,7 @@ void visual(int i) {
     {
         write(1,"\033[0;32m\xE2\x99\xBF ",12);
         i--;
-        write(1,"\033[0m",4);
+       // write(1,"\033[0m",4);
     }
 }
 int weight(v_list *vis,int num)
@@ -41,20 +41,20 @@ void pri(p_list *p)
 	printf("stack a \n");
     while (i < p->a_size)
     {
-		printf("%d", p->ari[i]);
+		printf("%d\n", p->ari[i]);
 		w = weight(p->vis,p->ari[i]);
-		visual(w);
-		printf("\n");
+		//visual(w);
+		//printf("\n");
         i++;
     }
     i = 0;
 	printf("stack b \n");
     while (i < p->b_size)
     {
-		printf("%d", p->bri[i]);
+		printf("%d\n", p->bri[i]);
         w = weight(p->vis,p->bri[i]);
-        visual(w);
-        write(1,"\n",1);
+        //visual(w);
+        //write(1,"\n",1);
         i++;
     }
     checker(p);
@@ -249,6 +249,7 @@ void swap(p_list *p)
             rrr(p);
         pri(p);
         p->ops++;
+        printf("%d",p->ops);
     }
 }
 void vinit(p_list *p, int *v,int size)
@@ -294,8 +295,6 @@ int main (int argc, char** argv)
         return(0);
     if(!(p.bri = (int *)ft_memalloc(sizeof(int) * (argc-1))))
         return(0);
-//    if(!(p.vis = ft_memalloc(sizeof(v_list)*(argc-1))))
-//        return(0);
     while (k >= 0)
     {
         pushback(&p);
@@ -315,9 +314,7 @@ int main (int argc, char** argv)
     ssort(v,p.mlen);
     vinit(&p,v,p.mlen-1);
     swap(&p);
-    printf("%d",p.ops);
+    //pri(&p);
     // sa(p.ari);
-    // pri(&p);
-    printf("\nnumbers = %d\n",p.a_size);
     return(0);
 }

@@ -475,26 +475,31 @@ void	ra_ops(p_list *p)
 	//write(1, "pa\n", 3);
 	pa(p);
 }
-int sort5(p_list *p)
-{
+int sort5(p_list *p) {
     pb(p);
     pb(p);
     sort3(p);
+    final_sort(p);
+//    while (p->b_size > 0) {
+//        rbcount(p);
+//        racount(p);
+//        p->min_op_in = min_operation(p);
+//        rb_ops(p);
+//        ra_ops(p);
+//    }
+//    final_sort(p);
     return 1;
 }
 int main (int argc, char** argv)
 {
     p_list p;
     int i;
-    int *iters;
     int iter;
     int *v;
     int *mmm;
     int n = 0; //FOR TEST
     p.print = 1;
     i = 1;
-    if(!(iters = (int*)malloc(sizeof(int) * (argc-1))))
-        return(0);
     if(!(p.ari = (int *)malloc(sizeof(int) * (argc-1))))
         return(0);
     if(!(p.bri = (int *)malloc(sizeof(int) * (argc-1))))
@@ -529,16 +534,17 @@ int main (int argc, char** argv)
     {
         sort5(&p);
     }
-    sortmid(&p);
-    while (p.b_size > 0)
-	{
-		rbcount(&p);
-		racount(&p);
-		p.min_op_in = min_operation(&p);
-    	rb_ops(&p);
-    	ra_ops(&p);
-	}
-    final_sort(&p);
+    else {
+        sortmid(&p);
+    }
+        while (p.b_size > 0) {
+            rbcount(&p);
+            racount(&p);
+            p.min_op_in = min_operation(&p);
+            rb_ops(&p);
+            ra_ops(&p);
+        }
+        final_sort(&p);
 //    printf("bsize = %d \n", p.b_size);
 //    while (n < 5)
 //    {
