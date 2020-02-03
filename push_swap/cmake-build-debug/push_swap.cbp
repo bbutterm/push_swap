@@ -279,6 +279,9 @@
 		<Unit filename="/Users/bbutterm/Desktop/push_swap/push_swap/libft/libft.h">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/bbutterm/Desktop/push_swap/push_swap/push_swap.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/bbutterm/Desktop/push_swap/push_swap/push_swap.h">
 			<Option target="push_swap"/>
 		</Unit>

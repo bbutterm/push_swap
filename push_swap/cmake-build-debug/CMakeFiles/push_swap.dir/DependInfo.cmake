@@ -66,6 +66,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/bbutterm/Desktop/push_swap/push_swap/libft/ft_strtrim.c" "/Users/bbutterm/Desktop/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strtrim.c.o"
   "/Users/bbutterm/Desktop/push_swap/push_swap/libft/ft_tolower.c" "/Users/bbutterm/Desktop/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_tolower.c.o"
   "/Users/bbutterm/Desktop/push_swap/push_swap/libft/ft_toupper.c" "/Users/bbutterm/Desktop/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_toupper.c.o"
+  "/Users/bbutterm/Desktop/push_swap/push_swap/push_swap.c" "/Users/bbutterm/Desktop/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

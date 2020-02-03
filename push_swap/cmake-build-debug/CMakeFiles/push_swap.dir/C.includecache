@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/bbutterm/Desktop/push_swap/push_swap/checker.c
-libft/libft.h
-/Users/bbutterm/Desktop/push_swap/push_swap/libft/libft.h
-stdio.h
--
-ft_printf.h
-/Users/bbutterm/Desktop/push_swap/push_swap/ft_printf.h
-push_swap.h
-/Users/bbutterm/Desktop/push_swap/push_swap/push_swap.h
-get_next_line.h
-/Users/bbutterm/Desktop/push_swap/push_swap/get_next_line.h
-
 /Users/bbutterm/Desktop/push_swap/push_swap/ft_printf.h
 stdarg.h
 -
@@ -30,16 +18,6 @@ libft/libft.h
 string.h
 -
 
-/Users/bbutterm/Desktop/push_swap/push_swap/get_next_line.h
-fcntl.h
--
-libft/libft.h
-/Users/bbutterm/Desktop/push_swap/push_swap/libft/libft.h
-unistd.h
--
-stdlib.h
--
-
 /Users/bbutterm/Desktop/push_swap/push_swap/libft/libft.h
 string.h
 -
@@ -47,6 +25,16 @@ unistd.h
 -
 stdlib.h
 -
+
+/Users/bbutterm/Desktop/push_swap/push_swap/push_swap.c
+libft/libft.h
+/Users/bbutterm/Desktop/push_swap/push_swap/libft/libft.h
+stdio.h
+-
+ft_printf.h
+/Users/bbutterm/Desktop/push_swap/push_swap/ft_printf.h
+push_swap.h
+/Users/bbutterm/Desktop/push_swap/push_swap/push_swap.h
 
 /Users/bbutterm/Desktop/push_swap/push_swap/push_swap.h
 stdio.h

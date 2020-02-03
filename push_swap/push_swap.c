@@ -396,7 +396,7 @@ void sortmid(p_list *p)
 	min_op_in = 0;
 	while (i < p->b_size)
 	{
-		if (p->sumops[i] <= min_op)
+		if (p->sumops[i] < min_op)
 		{
 			min_op = p->sumops[i];
 			min_op_in = i;

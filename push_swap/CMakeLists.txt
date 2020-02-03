@@ -72,4 +72,5 @@ add_executable(push_swap
         ft_printf.h
         get_next_line.c
         get_next_line.h
+        push_swap.c
         push_swap.h)
