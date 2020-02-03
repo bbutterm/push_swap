@@ -494,10 +494,7 @@ int main (int argc, char** argv)
 {
     p_list p;
     int i;
-    int iter;
     int *v;
-    int *mmm;
-    int n = 0; //FOR TEST
     p.print = 1;
     i = 1;
     if(!(p.ari = (int *)malloc(sizeof(int) * (argc-1))))
@@ -537,19 +534,14 @@ int main (int argc, char** argv)
     else {
         sortmid(&p);
     }
-        while (p.b_size > 0) {
-            rbcount(&p);
-            racount(&p);
-            p.min_op_in = min_operation(&p);
-            rb_ops(&p);
-            ra_ops(&p);
-        }
-        final_sort(&p);
-//    printf("bsize = %d \n", p.b_size);
-//    while (n < 5)
-//    {
-//        printf("%d",p.sumops[n]);
-//        n++;
-//    }
+    while (p.b_size > 0)
+    {
+        rbcount(&p);
+        racount(&p);
+        p.min_op_in = min_operation(&p);
+        rb_ops(&p);
+        ra_ops(&p);
+    }
+    final_sort(&p);
     return(0);
 } 

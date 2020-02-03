@@ -20,7 +20,7 @@ void visual(int i) {
     {
         write(1,"\033[0;32m\xE2\x99\xBF ",12);
         i--;
-       // write(1,"\033[0m",4);
+        write(1,"\033[0m",4);
     }
 }
 int weight(v_list *vis,int num)
@@ -36,15 +36,13 @@ void pri(p_list *p)
     int i;
     int w;
     i = 0;
-    // ft_printf("%d\n",p->a_size);
-    // ft_printf("%d\n",p->b_size);
 	printf("stack a \n");
     while (i < p->a_size)
     {
 		printf("%d\n", p->ari[i]);
 		w = weight(p->vis,p->ari[i]);
-		//visual(w);
-		//printf("\n");
+		visual(w);
+        write(1,"\n",1);
         i++;
     }
     i = 0;
@@ -53,8 +51,8 @@ void pri(p_list *p)
     {
 		printf("%d\n", p->bri[i]);
         w = weight(p->vis,p->bri[i]);
-        //visual(w);
-        //write(1,"\n",1);
+        visual(w);
+        write(1,"\n",1);
         i++;
     }
     checker(p);
@@ -249,7 +247,7 @@ void swap(p_list *p)
             rrr(p);
         pri(p);
         p->ops++;
-        printf("%d",p->ops);
+        printf("operations = %d \n",p->ops);
     }
 }
 void vinit(p_list *p, int *v,int size)
