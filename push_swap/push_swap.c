@@ -417,12 +417,12 @@ void	rb_ops(p_list *p)
 	while (p->rbops[p->min_op_in] > 0)
 	{
 		med = p->b_size / 2;
-		if (p->min_op_in < med)
+		if (p->min_op_in <= med)
 		{
 			//write(1, "rb\n", 3);
 			rb(p);
 		}
-		else if (p->min_op_in >= med)
+		else if (p->min_op_in > med)
 		{
 			//write(1, "rrb\n", 4);
 			rrb(p);
@@ -475,7 +475,13 @@ void	ra_ops(p_list *p)
 	//write(1, "pa\n", 3);
 	pa(p);
 }
-
+int sort5(p_list *p)
+{
+    pb(p);
+    pb(p);
+    sort3(p);
+    return 1;
+}
 int main (int argc, char** argv)
 {
     p_list p;
@@ -519,8 +525,11 @@ int main (int argc, char** argv)
     {
         sort3(&p);
     }
+    if (p.a_size == 5)
+    {
+        sort5(&p);
+    }
     sortmid(&p);
-
     while (p.b_size > 0)
 	{
 		rbcount(&p);

@@ -18,7 +18,7 @@ void checker(p_list *p)
 void visual(int i) {
     while (i >= 0)
     {
-        write(1,"\033[0;32m\xE2\x99\xBF",11);
+        write(1,"\033[0;32m\xE2\x99\xBF ",12);
         i--;
         write(1,"\033[0m",4);
     }
@@ -286,6 +286,7 @@ int main (int argc, char** argv)
     int *v;
     int i;
     int k;
+
     k = argc -1;
     p.print = 0;
     i = 1;
