@@ -1,0 +1,4 @@
+/Users/jijerde/Desktop/475698.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/jijerde/push_swap_valid
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/jijerde/push_swap_valid/cmake-build-debug
