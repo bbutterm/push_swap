@@ -28,12 +28,12 @@ void ra(t_lis *p)
 	int k;
 	k = p->ari[0];
 	i = 0;
-	while (i < p->a_size-1)
+	while (i < p->a_size - 1)
 	{
-		p->ari[i] = p->ari[i+1];
+		p->ari[i] = p->ari[i + 1];
 		i++;
 	}
-	p->ari[p->a_size-1] = k;
+	p->ari[p->a_size - 1] = k;
 	if (p->print == 1)
 		ft_putstr("ra\n");
 }
@@ -48,14 +48,14 @@ void pa(t_lis *p)
 	{
 		while (i >= 1)
 		{
-			p->ari[i] = p->ari[i-1];
+			p->ari[i] = p->ari[i - 1];
 			i--;
 		}
 		p->ari[0] = p->bri[0];
 		p->print = 0;
 		rb(p);
 		p->print = 1;
-		p->bri[p->mlen-1] = (int)NULL;
+		p->bri[p->mlen - 1] = (int)NULL;
 		p->a_size+=1;
 		p->b_size-=1;
 	}
@@ -67,11 +67,11 @@ void rra(t_lis *p)
 {
 	int i;
 	int k;
-	k = p->ari[p->a_size-1];
+	k = p->ari[p->a_size - 1];
 	i = p->a_size;
 	while (i > 0)
 	{
-		p->ari[i] = p->ari[i-1];
+		p->ari[i] = p->ari[i - 1];
 		i--;
 	}
 	p->ari[0] = k;
