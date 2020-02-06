@@ -146,7 +146,7 @@ int main (int argc, char** argv)
     int i;
     int k;
     t_lis p;
-    p.flags = 2;
+    p.flags = setflags(av[1]);
 //    init_checker(&p,argc);
     p.print = 0;
     i = 1;
