@@ -70,3 +70,16 @@ int		len_nbr(char *str)
 	}
 	return (count);
 }
+
+int setflag(char *s)
+{
+	if (s[0] == '-')
+	{
+		if (s[1] == v)
+			return (1);
+		if (s[1] == c)
+			return (2);
+		return 0;
+	}
+	return 0;
+}
