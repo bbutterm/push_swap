@@ -27,7 +27,7 @@ int main (int argc, char** argv)
 	t_lis	p;
 	int		i;
 	char	*space;
-	p.flags = 0;
+	p.flags = setflags(av[1]);
 	//int *v;
 	p.print = 1;
 	i = 1;
