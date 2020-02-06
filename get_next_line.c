@@ -75,7 +75,7 @@ int			get_next_line(int const fd, char **line)
 
 	tmp = ft_strnew(BUFF_SIZE);
 	if (!line || BUFF_SIZE <= 0 || fd < 0 || (read(fd, tmp, 0)) < 0)
-		return (-1); 
+		return (-1);
 	while ((read(fd, tmp, BUFF_SIZE)) > 0)
 	{
 		result = verif(&buff[fd], &tmp, line);

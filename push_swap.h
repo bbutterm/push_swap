@@ -1,4 +1,3 @@
-//header
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
@@ -16,9 +15,9 @@ typedef struct	s_vlist
 
 typedef struct	s_glist
 {
-    int			*ari; // stack a
-    int			*bri; // stack b
-    int			mlen; //massive len
+	int			*ari; // stack a
+	int			*bri; // stack b
+	int			mlen; //massive len
     int			print;
     int			min;
     int			flags;
