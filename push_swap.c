@@ -25,6 +25,10 @@ int main (int argc, char** argv)
 	t_lis	p;
 	int	i;
 	char	*space;
+
+	if (argc < 2)
+		exit(0);
+	str = NULL;
     p.print = 1;
 	p.flags = setflags(argv[1]);
 	if (p.flags != 0)
@@ -41,7 +45,7 @@ int main (int argc, char** argv)
 				str = NULL;
 			}
 			write(1, "Error\n", 6);
-			return (0);
+			exit(0);
 		}
 		else
 		{
@@ -59,6 +63,11 @@ int main (int argc, char** argv)
 	if (str)
 	{
 		validate_of_stack(str, &p);
+	}
+	else
+	{
+		write(1, "Error\n", 6);
+		exit(0);
 	}
 	miniinit(&p);
 	if (p.a_size == 3)

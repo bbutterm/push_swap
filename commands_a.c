@@ -56,9 +56,8 @@ void	pa(t_lis *p)
 			i--;
 		}
 		p->ari[0] = p->bri[0];
-		p->print = k;
+		k = p->print;
 		p->print = 0;
-		ra(p);
 		rb(p);
 		p->print = k;
 		p->bri[p->mlen - 1] = (int)NULL;

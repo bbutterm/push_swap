@@ -36,39 +36,42 @@ void	rbcount(t_lis *p)
 	}
 }
 
+void	find_curr_in(t_lis *p, int i, int j, int n)
+{
+	if (p->ari[i] < p->bri[j])
+	{
+		if (p->ari[i] >= p->curr_min)
+		{
+			p->curr_min = p->ari[i];
+			p->curr_in = i;
+			p->check_point[n] = i;
+		}
+	}
+}
+
 void	racount(t_lis *p)
 {
-	int curr_min;
 	int i;
 	int j;
 	int med;
-	int curr_in;
 	int n;
 
 	j = 0;
 	n = 0;
 	while (j < p->b_size)
 	{
-		curr_min = p->min;
+		p->curr_min = p->min;
 		i = 0;
 		while (i < p->a_size)
 		{
-			if (p->ari[i] < p->bri[j])
-			{
-				if (p->ari[i] >= curr_min)
-				{
-					curr_min = p->ari[i];
-					curr_in = i;
-					p->check_point[n] = i;
-				}
-			}
+			find_curr_in(p, i, j, n);
 			i++;
 		}
 		med = (p->a_size - 1) / 2;
-		if (curr_in < med)
-			p->sumops[n] = curr_in + 1 + p->rbops[n];
-		else if (curr_in >= med)
-			p->sumops[n] = (i - 1) - curr_in + p->rbops[n];
+		if (p->curr_in < med)
+			p->sumops[n] = p->curr_in + 1 + p->rbops[n];
+		else if (p->curr_in >= med)
+			p->sumops[n] = (i - 1) - p->curr_in + p->rbops[n];
 		n++;
 		j++;
 	}

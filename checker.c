@@ -7,12 +7,8 @@ void    checker(t_lis *p)
 {
     int i;
     i = 0;
-    while (i < p->a_size - 1)
-    {
-        if (p->ari[i] > p->ari[i + 1])
-            return (ft_putstr("KO\n"));
-        i++;
-    }
+    if (p->ari[i] > p->ari[i + 1])
+        return (ft_putstr("KO\n"));
     return (ft_putstr("OK\n"));
 }
 void visual(int i,t_lis *p)
@@ -97,10 +93,10 @@ void swap(t_lis *p)
         {
             pri(p);
         }
-        checker(p);
         p->ops++;
         //printf("operations = %d \n",p->ops);
     }
+    checker(p);
 }
 void vinit(t_lis *p, int *v,int size)
 {
@@ -147,6 +143,10 @@ int main (int argc, char** argv)
     int i;
     int k;
     t_lis p;
+
+    if (argc < 2)
+        exit(0);
+    str = NULL;
     p.print = 0;
     p.flags = setflags(argv[1]);
     if (p.flags != 0)

@@ -32,6 +32,8 @@ typedef struct	s_glist
     int			b_size;
     int			min_op_in;
     int			argcount;
+    int 		curr_in;
+	int			curr_min;
     t_lisv		*vis;
 }				t_lis;
 
@@ -47,7 +49,7 @@ void			pb(t_lis *p);
 void			rrr(t_lis *p);
 void			final_sort(t_lis *p);
 void			sortmid(t_lis *p);
-int				sort3(t_lis *p);
+void			sort3(t_lis *p);
 void			sort5(t_lis *p);
 void			ssort(int *v, int size);
 void			rbcount(t_lis *p);

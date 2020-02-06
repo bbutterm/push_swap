@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.13)
-project(push_swap_valid C)
+project(push_swa C)
 
 set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
 include_directories(libft)
 
-add_executable(push_swap_valid
+add_executable(push_swa
         libft/ft_atoi.c
         libft/ft_bzero.c
         libft/ft_isalnum.c
@@ -68,16 +68,16 @@ add_executable(push_swap_valid
         libft/ft_tolower.c
         libft/ft_toupper.c
         libft/libft.h
-        push_swap.c
         commands_a.c
         commands_b.c
         commands_other.c
         ft_printf.h
         get_next_line.c
         get_next_line.h
+        len_nbr.c
         opt_operations.c
+        push_swap.c
         push_swap.h
         sorts.c
         sum_ops.c
-        len_nbr.c
         validation.c)

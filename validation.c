@@ -12,7 +12,7 @@
 
 #include "push_swap.h"
 
-int		atoi_for_ps(const char *str)
+int			atoi_for_ps(const char *str)
 {
 	int					i;
 	long				nbr;
@@ -41,15 +41,8 @@ int		atoi_for_ps(const char *str)
 	return ((int)nbr);
 }
 
-void		check_double(char *str, t_lis *p)
+void		fill_a_v(char *str, int i, int j, t_lis *p)
 {
-	int		i;
-	int		j;
-
-	p->argcount = len_nbr(str);
-	init(p, p->argcount);
-	i = 0;
-	j = 0;
 	while (str[i] != '\0')
 	{
 		while ((str[i] == '\n') || (str[i] == '\t') || (str[i] == '\v') || \
@@ -64,6 +57,18 @@ void		check_double(char *str, t_lis *p)
 		while (ft_isdigit(str[i]) || str[i] == '-')
 			i++;
 	}
+}
+
+void		check_double(char *str, t_lis *p)
+{
+	int		i;
+	int		j;
+
+	p->argcount = len_nbr(str);
+	init(p, p->argcount);
+	i = 0;
+	j = 0;
+	fill_a_v(str, i, j, p);
 	ssort(p->v, p->argcount);
 	p->min = p->v[0];
 	p->max = p->v[p->argcount - 1];

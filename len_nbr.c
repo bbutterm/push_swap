@@ -74,17 +74,12 @@ int		len_nbr(char *str)
 
 int		setflags(char *s)
 {
-	if (s[0] == '-')
+	if ((!(ft_strcmp(s, "-v"))) || (!(ft_strcmp(s, "-c"))))
 	{
-		if (s[1] == 'v')
+		if ((!(ft_strcmp(s, "-v"))))
 			return (1);
-		if (s[1] == 'c')
+		if ((!(ft_strcmp(s, "-c"))))
 			return (2);
-		else
-		{
-			write(1, "Error\n", 6);
-			exit(0);
-		}
 	}
 	return (0);
 }
