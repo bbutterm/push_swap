@@ -2,9 +2,8 @@
 #include <stdio.h>
 #include "ft_printf.h"
 #include "push_swap.h"
-void miniinit(t_list *p)
+void miniinit(t_lis *p)
 {
-	p->print = 1;
 	p->mlen = p->argcount; //massive len
 	p->a_size = p->mlen;
 	p->b_size = 0;
@@ -26,8 +25,12 @@ int main (int argc, char** argv)
 	t_lis	p;
 	int	i;
 	char	*space;
-	p.flags = setflags(av[1]);
-	i = 1;
+    p.print = 1;
+	p.flags = setflags(argv[1]);
+	if (p.flags != 0)
+	    i = 2;
+	else
+	    i = 1;
 	while (argv[i])
 	{
 		if (!(validelemet(argv[i])))
@@ -64,7 +67,7 @@ int main (int argc, char** argv)
 		sort5(&p);
 	else
 		sortmid(&p);
-	sorting(&p)
+	sorting(&p);
 	final_sort(&p);
 	exit(0);
 }

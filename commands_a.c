@@ -41,6 +41,7 @@ void ra(t_lis *p)
 void pa(t_lis *p)
 {
 	int i;
+	int k;
 	i = p->a_size;
 	if (p->b_size == 0)
 		return;
@@ -52,9 +53,11 @@ void pa(t_lis *p)
 			i--;
 		}
 		p->ari[0] = p->bri[0];
-		p->print = 0;
+        p->print = k;
+        p->print = 0;
+        ra(p);
 		rb(p);
-		p->print = 1;
+		p->print = k;
 		p->bri[p->mlen - 1] = (int)NULL;
 		p->a_size+=1;
 		p->b_size-=1;

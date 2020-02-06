@@ -3,7 +3,7 @@
 #include "ft_printf.h"
 #include "push_swap.h"
 #include "get_next_line.h"
-void checker(t_lis *p)
+void    checker(t_lis *p)
 {
     int i;
     i = 0;
@@ -93,7 +93,8 @@ void swap(t_lis *p)
     while(get_next_line(0,&line))
     {
         ifswap(p, line);
-        if (p->flags > 0) {
+        if (p->flags > 0)
+        {
             pri(p);
         }
         checker(p);
@@ -146,12 +147,12 @@ int main (int argc, char** argv)
     int i;
     int k;
     t_lis p;
-    p.flags = setflags(av[1]);
-//    init_checker(&p,argc);
     p.print = 0;
-    i = 1;
-    //if(!(p.v = (int *)ft_memalloc(sizeof(int) * (argc-1))))
-    //    return(0);
+    p.flags = setflags(argv[1]);
+    if (p.flags != 0)
+        i = 2;
+    else
+        i = 1;
     while (argv[i])
     {
         if (!(validelemet(argv[i])))

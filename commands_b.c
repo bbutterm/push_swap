@@ -40,6 +40,7 @@ void rb(t_lis *p)
 
 void pb(t_lis *p)
 {
+    int k;
 	int i;
 	i = p->b_size;
 	if (p->a_size == 0)
@@ -52,9 +53,10 @@ void pb(t_lis *p)
 			i--;
 		}
 		p->bri[0] = p->ari[0];
+		p->print = k;
 		p->print = 0;
 		ra(p);
-		p->print = 1;
+		p->print = k;
 		p->ari[p->mlen-1] = (int)NULL;
 		p->b_size+=1;
 		p->a_size-=1;

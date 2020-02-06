@@ -1,4 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/push_swap_valid.dir/commands_a.c.o"
+  "CMakeFiles/push_swap_valid.dir/commands_b.c.o"
+  "CMakeFiles/push_swap_valid.dir/commands_other.c.o"
+  "CMakeFiles/push_swap_valid.dir/get_next_line.c.o"
+  "CMakeFiles/push_swap_valid.dir/len_nbr.c.o"
   "CMakeFiles/push_swap_valid.dir/libft/ft_atoi.c.o"
   "CMakeFiles/push_swap_valid.dir/libft/ft_bzero.c.o"
   "CMakeFiles/push_swap_valid.dir/libft/ft_isalnum.c.o"
@@ -59,18 +64,13 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap_valid.dir/libft/ft_strtrim.c.o"
   "CMakeFiles/push_swap_valid.dir/libft/ft_tolower.c.o"
   "CMakeFiles/push_swap_valid.dir/libft/ft_toupper.c.o"
-  "CMakeFiles/push_swap_valid.dir/push_swap.c.o"
-  "CMakeFiles/push_swap_valid.dir/commands_a.c.o"
-  "CMakeFiles/push_swap_valid.dir/commands_b.c.o"
-  "CMakeFiles/push_swap_valid.dir/commands_other.c.o"
-  "CMakeFiles/push_swap_valid.dir/get_next_line.c.o"
   "CMakeFiles/push_swap_valid.dir/opt_operations.c.o"
+  "CMakeFiles/push_swap_valid.dir/push_swap.c.o"
   "CMakeFiles/push_swap_valid.dir/sorts.c.o"
   "CMakeFiles/push_swap_valid.dir/sum_ops.c.o"
-  "CMakeFiles/push_swap_valid.dir/len_nbr.c.o"
   "CMakeFiles/push_swap_valid.dir/validation.c.o"
-  "push_swap_valid.pdb"
   "push_swap_valid"
+  "push_swap_valid.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

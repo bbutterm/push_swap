@@ -60,5 +60,6 @@ int				validelemet(char *stack1);
 void			validate_of_stack(char *str, t_lis *p);
 int				len_nbr(char *str);
 int				init(t_lis *p, int argc);
+int             setflags(char *s);
 
 #endif
