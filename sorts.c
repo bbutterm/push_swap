@@ -12,12 +12,12 @@
 
 #include "push_swap.h"
 
-void ssort(int *v, int size)
+void	ssort(int *v, int size)
 {
 	int i;
 	int tmp;
-	i = 0;
 
+	i = 0;
 	while (i < size - 1)
 	{
 		if (v[i] > v[i + 1])
@@ -31,46 +31,47 @@ void ssort(int *v, int size)
 	}
 }
 
-int sort3(t_lis *p)
+int		sort3(t_lis *p)
 {
 	if ((p->ari[0] > p->ari[1]) && (p->ari[1] < p->ari[2]) &&
 	(p->ari[0] < p->ari[2]))
 	{
 		sa(p);
-		return(1);
+		return (1);
 	}
 	else if ((p->ari[0] > p->ari[1]) && (p->ari[1] > p->ari[2]) &&
-	(p->ari[2]<p->ari[0]))
+	(p->ari[2] < p->ari[0]))
 	{
 		sa(p);
 		rra(p);
-		return(2);
+		return (2);
 	}
 	else if ((p->ari[0] > p->ari[1]) && (p->ari[1] < p->ari[2]) &&
 	(p->ari[0] > p->ari[2]))
 	{
 		ra(p);
-		return(1);
+		return (1);
 	}
 	else if ((p->ari[0] < p->ari[1]) && (p->ari[1] > p->ari[2]) &&
 	(p->ari[0] < p->ari[2]))
 	{
 		sa(p);
 		ra(p);
-		return(2);
+		return (2);
 	}
 	else if ((p->ari[0] < p->ari[1]) && (p->ari[1] > p->ari[2]) &&
 	(p->ari[0] > p->ari[2]))
 	{
 		rra(p);
-		return(1);
+		return (1);
 	}
-	return(0);
+	return (0);
 }
 
-void sortmid(t_lis *p)
+void	sortmid(t_lis *p)
 {
 	int i;
+
 	i = 0;
 	while (i < p->mlen)
 	{
@@ -90,7 +91,7 @@ void sortmid(t_lis *p)
 	return ;
 }
 
-void sort5(t_lis *p)
+void	sort5(t_lis *p)
 {
 	while (p->b_size < 2)
 	{

@@ -12,9 +12,10 @@
 
 #include "push_swap.h"
 
-void sb(t_lis *p)
+void	sb(t_lis *p)
 {
 	int b;
+
 	b = p->bri[0];
 	p->bri[0] = p->bri[1];
 	p->bri[1] = b;
@@ -22,10 +23,11 @@ void sb(t_lis *p)
 		ft_putstr("sb\n");
 }
 
-void rb(t_lis *p)
+void	rb(t_lis *p)
 {
 	int i;
 	int k;
+
 	k = p->bri[0];
 	i = 0;
 	while (i < p->b_size - 1)
@@ -38,13 +40,14 @@ void rb(t_lis *p)
 		ft_putstr("rb\n");
 }
 
-void pb(t_lis *p)
+void	pb(t_lis *p)
 {
-    int k;
+	int k;
 	int i;
+
 	i = p->b_size;
 	if (p->a_size == 0)
-		return;
+		return ;
 	else
 	{
 		while (i >= 1)
@@ -57,18 +60,19 @@ void pb(t_lis *p)
 		p->print = 0;
 		ra(p);
 		p->print = k;
-		p->ari[p->mlen-1] = (int)NULL;
-		p->b_size+=1;
-		p->a_size-=1;
+		p->ari[p->mlen - 1] = (int)NULL;
+		p->b_size += 1;
+		p->a_size -= 1;
 	}
 	if (p->print == 1)
 		ft_putstr("pb\n");
 }
 
-void rrb(t_lis *p)
+void	rrb(t_lis *p)
 {
 	int i;
 	int k;
+
 	k = p->bri[p->b_size - 1];
 	i = p->b_size;
 	while (i > 0)

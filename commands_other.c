@@ -12,7 +12,7 @@
 
 #include "push_swap.h"
 
-void ss(t_lis *p)
+void	ss(t_lis *p)
 {
 	sa(p);
 	sb(p);
@@ -20,7 +20,7 @@ void ss(t_lis *p)
 		ft_putstr("ss\n");
 }
 
-void rr(t_lis *p)
+void	rr(t_lis *p)
 {
 	ra(p);
 	rb(p);
@@ -28,7 +28,7 @@ void rr(t_lis *p)
 		ft_putstr("rr\n");
 }
 
-void rrr(t_lis *p)
+void	rrr(t_lis *p)
 {
 	rra(p);
 	rrb(p);

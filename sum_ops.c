@@ -12,13 +12,13 @@
 
 #include "push_swap.h"
 
-void rbcount(t_lis *p)
+void	rbcount(t_lis *p)
 {
 	int c;
 	int b;
-	c = 0;
 
-	while (c < (p->b_size/2))
+	c = 0;
+	while (c < (p->b_size / 2))
 	{
 		p->rbops[c] = c;
 		c++;
@@ -36,7 +36,7 @@ void rbcount(t_lis *p)
 	}
 }
 
-void racount(t_lis *p)
+void	racount(t_lis *p)
 {
 	int curr_min;
 	int i;
