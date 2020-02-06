@@ -28,12 +28,12 @@ void rb(t_lis *p)
 	int k;
 	k = p->bri[0];
 	i = 0;
-	while (i < p->b_size-1)
+	while (i < p->b_size - 1)
 	{
-		p->bri[i] = p->bri[i+1];
+		p->bri[i] = p->bri[i + 1];
 		i++;
 	}
-	p->bri[p->b_size-1] = k;
+	p->bri[p->b_size - 1] = k;
 	if (p->print == 1)
 		ft_putstr("rb\n");
 }
@@ -48,7 +48,7 @@ void pb(t_lis *p)
 	{
 		while (i >= 1)
 		{
-			p->bri[i] = p->bri[i-1];
+			p->bri[i] = p->bri[i - 1];
 			i--;
 		}
 		p->bri[0] = p->ari[0];
@@ -67,11 +67,11 @@ void rrb(t_lis *p)
 {
 	int i;
 	int k;
-	k = p->bri[p->b_size-1];
+	k = p->bri[p->b_size - 1];
 	i = p->b_size;
 	while (i > 0)
 	{
-		p->bri[i] = p->bri[i-1];
+		p->bri[i] = p->bri[i - 1];
 		i--;
 	}
 	p->bri[0] = k;
