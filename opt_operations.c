@@ -6,11 +6,17 @@
 /*   By: jijerde <jijerde@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/04 18:30:35 by jijerde           #+#    #+#             */
-/*   Updated: 2020/02/04 18:46:21 by jijerde          ###   ########.fr       */
+/*   Updated: 2020/02/08 00:40:08 by jijerde          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
+
+void	ft_error(void)
+{
+	write(1, "Error\n", 6);
+	exit(0);
+}
 
 int		min_operation(t_lis *p)
 {

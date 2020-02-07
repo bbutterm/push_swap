@@ -1,14 +1,25 @@
-#include "libft/libft.h"
-#include <stdio.h>
-#include "ft_printf.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   push_swap.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jijerde <jijerde@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/02/07 20:18:35 by jijerde           #+#    #+#             */
+/*   Updated: 2020/02/08 00:39:13 by jijerde          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "push_swap.h"
-void miniinit(t_lis *p)
+
+void	miniinit(t_lis *p)
 {
-	p->mlen = p->argcount; //massive len
+	p->mlen = p->argcount;
 	p->a_size = p->mlen;
 	p->b_size = 0;
 }
-void sorting(t_lis *p)
+
+void	sorting(t_lis *p)
 {
 	while (p->b_size > 0)
 	{
@@ -19,64 +30,62 @@ void sorting(t_lis *p)
 		ra_ops(p);
 	}
 }
-int main (int argc, char** argv)
+
+void	van_sort(t_lis *p)
+{
+	if (p->a_size == 3)
+		sort3(p);
+	else if (p->a_size == 5)
+		sort5(p);
+	else
+	{
+		sortmid(p);
+		sorting(p);
+		final_sort(p);
+	}
+}
+
+void	check_a(t_lis *p)
+{
+	int i;
+
+	i = 0;
+	while (i < p->a_size - 1)
+	{
+		if (p->ari[i] < p->ari[i + 1])
+		{
+			i++;
+			continue;
+		}
+		return ;
+	}
+	exit(0);
+}
+
+int		main(int argc, char **argv)
 {
 	char	*str;
 	t_lis	p;
-	int	i;
+	int		i;
 	char	*space;
 
 	if (argc < 2)
 		exit(0);
 	str = NULL;
-    p.print = 1;
-	p.flags = setflags(argv[1]);
-	if (p.flags != 0)
-	    i = 2;
-	else
-	    i = 1;
-	while (argv[i])
-	{
-		if (!(validelemet(argv[i])))
-		{
-			if(str)
-			{
-				free(str);
-				str = NULL;
-			}
-			write(1, "Error\n", 6);
-			exit(0);
-		}
-		else
-		{
-			if (!str)
-			{
-				str = "";
-				space = "";
-			}
-			else
-				space = " ";
-			str = ft_strjoin(ft_strjoin(str, space), argv[i]);
-		}
-		i++;
-	}
+	space = NULL;
+	p.print = 1;
+	i = 2;
+	if (!(p.flags = setflags(argv[1])))
+		i = 1;
+	str = fill_str(argv, i, str, space);
 	if (str)
-	{
 		validate_of_stack(str, &p);
-	}
 	else
-	{
-		write(1, "Error\n", 6);
-		exit(0);
-	}
+		ft_error();
 	miniinit(&p);
-	if (p.a_size == 3)
-		sort3(&p);
-	if (p.a_size == 5)
-		sort5(&p);
-	else
-		sortmid(&p);
-	sorting(&p);
-	final_sort(&p);
+	if (p.a_size == 1)
+		exit(0);
+	check_a(&p);
+	van_sort(&p);
 	exit(0);
 }

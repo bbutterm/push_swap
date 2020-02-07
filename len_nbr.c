@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   len_nbr.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jijerde <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: jijerde <jijerde@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 19:36:54 by jijerde           #+#    #+#             */
-/*   Updated: 2020/02/05 19:37:24 by jijerde          ###   ########.fr       */
+/*   Updated: 2020/02/07 22:23:18 by jijerde          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,4 +82,31 @@ int		setflags(char *s)
 			return (2);
 	}
 	return (0);
+}
+
+char	*fill_str(char **argv, int i, char *str, char *space)
+{
+	while (argv[i])
+	{
+		if (!(validelemet(argv[i])))
+		{
+			if (str)
+				free(str);
+			write(1, "Error\n", 6);
+			exit(0);
+		}
+		else
+		{
+			if (!str)
+			{
+				str = "";
+				space = "";
+			}
+			else
+				space = " ";
+			str = ft_strjoin(ft_strjoin(str, space), argv[i]);
+		}
+		i++;
+	}
+	return (str);
 }

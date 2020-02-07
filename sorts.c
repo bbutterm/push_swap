@@ -6,7 +6,7 @@
 /*   By: jijerde <jijerde@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/04 18:17:38 by jijerde           #+#    #+#             */
-/*   Updated: 2020/02/04 18:46:29 by jijerde          ###   ########.fr       */
+/*   Updated: 2020/02/07 23:09:35 by jijerde          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,12 @@ void	ssort(int *v, int size)
 		}
 		i++;
 	}
+}
+
+void	double_ra(t_lis *p)
+{
+	ra(p);
+	ra(p);
 }
 
 void	sort3(t_lis *p)
@@ -54,6 +60,9 @@ void	sort3(t_lis *p)
 	else if ((p->ari[0] < p->ari[1]) && (p->ari[1] > p->ari[2]) &&
 	(p->ari[0] > p->ari[2]))
 		rra(p);
+	else if ((p->ari[0] > p->ari[1]) && (p->ari[1] > p->ari[2]) &&
+	(p->ari[0] > p->ari[2]))
+		double_ra(p);
 }
 
 void	sortmid(t_lis *p)
