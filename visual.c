@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   visual.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbutterm <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aashara- <aashara-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/08 11:12:55 by bbutterm          #+#    #+#             */
-/*   Updated: 2020/02/08 11:12:56 by bbutterm         ###   ########.fr       */
+/*   Updated: 2020/02/08 16:09:20 by aashara-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,13 +69,12 @@ void	vinit(t_lis *p, int *v, int size)
 
 	tmp = p->vis;
 	i = 0;
-	while (size >= 0)
+	while (--size >= 0)
 	{
 		tmp->num = v[i];
 		tmp->weight = i;
 		tmp = tmp->next;
 		i++;
-		size--;
 	}
 }
 
@@ -83,6 +82,8 @@ void	pushback(t_lis *p)
 {
 	t_lisv *tmp;
 
+	if (!p)
+		return ;
 	if (!p->vis)
 		p->vis = (t_lisv *)ft_memalloc(sizeof(t_lisv));
 	else

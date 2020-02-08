@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   checker.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbutterm <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aashara- <aashara-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/08 11:10:51 by bbutterm          #+#    #+#             */
-/*   Updated: 2020/02/08 11:10:57 by bbutterm         ###   ########.fr       */
+/*   Updated: 2020/02/08 16:14:09 by aashara-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,6 +69,7 @@ void	swap(t_lis *p)
 			pri(p);
 		}
 		p->ops++;
+		ft_strdel(&line);
 	}
 	checker(p);
 }
@@ -78,11 +79,8 @@ void	push_backs(t_lis *p)
 	int		k;
 
 	k = p->argcount;
-	while (k >= 0)
-	{
+	while (--k >= 0)
 		pushback(p);
-		k--;
-	}
 	p->mlen = p->argcount;
 	p->a_size = p->mlen;
 	p->b_size = 0;
@@ -98,6 +96,7 @@ int		main(int argc, char **argv)
 	space = NULL;
 	if (argc < 2)
 		exit(0);
+	ft_bzero(&p, sizeof(p));
 	str = NULL;
 	p.print = 0;
 	i = 2;
@@ -107,10 +106,7 @@ int		main(int argc, char **argv)
 	if (str)
 		validate_of_stack(str, &p);
 	else
-	{
-		write(1, "Error\n", 6);
-		exit(0);
-	}
+		ft_error();
 	push_backs(&p);
 	vinit(&p, p.v, p.mlen);
 	swap(&p);

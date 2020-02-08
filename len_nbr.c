@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   len_nbr.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbutterm <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aashara- <aashara-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/08 11:11:41 by bbutterm          #+#    #+#             */
-/*   Updated: 2020/02/08 11:11:42 by bbutterm         ###   ########.fr       */
+/*   Updated: 2020/02/08 15:59:06 by aashara-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,6 +86,10 @@ int		setflags(char *s)
 
 char	*fill_str(char **argv, int i, char *str, char *space)
 {
+	char	*tmp;
+
+	if (!str)
+		space = "";
 	while (argv[i])
 	{
 		if (!(validelemet(argv[i])))
@@ -97,15 +101,12 @@ char	*fill_str(char **argv, int i, char *str, char *space)
 		}
 		else
 		{
-			if (!str)
-			{
-				str = "";
-				space = "";
-			}
-			else
-				space = " ";
-			str = ft_strjoin(ft_strjoin(str, space), argv[i]);
+			tmp = ft_strnew(ft_strlen(str) + ft_strlen(argv[i]) + 1);
+			ft_strcat(ft_strcat(ft_strcpy(tmp, str), space), argv[i]);
+			ft_strdel(&str);
+			str = tmp;
 		}
+		space = " ";
 		i++;
 	}
 	return (str);

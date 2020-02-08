@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   commands_a.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbutterm <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aashara- <aashara-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/08 11:11:05 by bbutterm          #+#    #+#             */
-/*   Updated: 2020/02/08 11:11:06 by bbutterm         ###   ########.fr       */
+/*   Updated: 2020/02/08 15:50:59 by aashara-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,11 +75,8 @@ void	rra(t_lis *p)
 
 	k = p->ari[p->a_size - 1];
 	i = p->a_size;
-	while (i > 0)
-	{
+	while (--i > 0)
 		p->ari[i] = p->ari[i - 1];
-		i--;
-	}
 	p->ari[0] = k;
 	if (p->print == 1)
 		ft_putstr("rra\n");

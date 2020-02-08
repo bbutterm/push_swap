@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   validation.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbutterm <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aashara- <aashara-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/08 11:12:48 by bbutterm          #+#    #+#             */
-/*   Updated: 2020/02/08 11:12:49 by bbutterm         ###   ########.fr       */
+/*   Updated: 2020/02/08 15:49:33 by aashara-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,7 +72,7 @@ void		check_double(char *str, t_lis *p)
 	ssort(p->v, p->argcount);
 	p->min = p->v[0];
 	p->max = p->v[p->argcount - 1];
-	p->mid = p->v[p->argcount - 1 / 2];
+	p->mid = p->v[(p->argcount - 1) / 2];
 	i = 0;
 	while (i < p->argcount - 1)
 	{
