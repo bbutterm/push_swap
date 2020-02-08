@@ -3,94 +3,76 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbutterm <bbutterm@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mmarti <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/23 19:54:56 by bbutterm          #+#    #+#             */
-/*   Updated: 2019/05/02 18:13:22 by bbutterm         ###   ########.fr       */
+/*   Created: 2019/04/25 19:50:33 by mmarti            #+#    #+#             */
+/*   Updated: 2019/05/06 17:31:25 by mmarti           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-static int	endline(char *buff)
+static int	ft_get_line(char **fd_lines, char **line)
 {
-	int		count;
-
-	count = 0;
-	while (buff[count] != ENDL && buff[count])
-		count++;
-	if (buff[count] == ENDL)
-	{
-		buff[count] = END;
-		return (count);
-	}
-	else
-		return (-1);
-}
-
-static char	*join(char *buff, char *tab)
-{
-	size_t	i;
-	size_t	j;
-	char	*ptr;
+	char	*tmp;
+	int		i;
 
 	i = 0;
-	j = 0;
-	if (buff)
-		i = ft_strlen(buff);
-	if (tab)
-		j = ft_strlen(tab);
-	ptr = (char *)malloc(sizeof(*ptr) * (i + j + 1));
-	ft_memcpy(ptr, buff, i);
-	ft_memcpy(ptr + i, tab, j);
-	ptr[i + j] = '\0';
-	free(buff);
-	ft_bzero(tab, BUFF_SIZE + 1);
-	return (ptr);
+	tmp = *fd_lines;
+	while (tmp[i] != '\n')
+	{
+		if (!tmp[i++])
+			return (0);
+	}
+	tmp[i] = 0;
+	*line = ft_strdup(*fd_lines);
+	*fd_lines = ft_strdup(&tmp[i + 1]);
+	free(tmp);
+	tmp = 0;
+	return (1);
 }
 
-static int	verif(char **buff, char **tmp, char **line)
+static int	ft_readline(int fd, char **fd_lines, char *buf, char **line)
 {
-	char	*ptr;
-	int		final;
+	char *tmp;
 
-	*buff = join(*buff, *tmp);
-	final = endline(*buff);
-	if (final > -1)
+	while (read(fd, buf, BUFF_SIZE))
 	{
-		*line = ft_strdup(*buff);
-		ptr = *buff;
-		*buff = ft_strdup(*buff + final + 1);
-		free(ptr);
+		if (!*fd_lines)
+			*fd_lines = ft_strdup(buf);
+		else if (*fd_lines)
+		{
+			tmp = *fd_lines;
+			*fd_lines = ft_strjoin(*fd_lines, buf);
+			free(tmp);
+		}
+		if ((ft_get_line(fd_lines, line)) == 1)
+			return (1);
+		ft_bzero(buf, BUFF_SIZE);
+	}
+	if (*fd_lines && *fd_lines[0] != 0 && ft_strchr(*fd_lines, '\n') == 0)
+	{
+		*line = ft_strdup(*fd_lines);
+		free(*fd_lines);
+		*fd_lines = 0;
 		return (1);
 	}
 	return (0);
 }
 
-int			get_next_line(int const fd, char **line)
+int			get_next_line(const int fd, char **line)
 {
-	static char *buff[12000];
-	char		*tmp;
-	int			result;
+	static char	*fd_lines[MAX_FD];
+	char		buf[BUFF_SIZE + 1];
+	int			ret;
 
-	tmp = ft_strnew(BUFF_SIZE);
-	if (!line || BUFF_SIZE <= 0 || fd < 0 || (read(fd, tmp, 0)) < 0)
+	if (fd < 0 || fd >= MAX_FD || BUFF_SIZE <= 0)
 		return (-1);
-	while ((read(fd, tmp, BUFF_SIZE)) > 0)
-	{
-		result = verif(&buff[fd], &tmp, line);
-		free(tmp);
-		if (result == 1)
-			return (1);
-		tmp = ft_strnew(BUFF_SIZE);
-	}
-	if ((result = verif(&buff[fd], &tmp, line)))
-		return (1);
-	else if (ft_strlen(buff[fd]) > 0)
-	{
-		*line = ft_strdup(buff[fd]);
-		ft_strdel(&buff[fd]);
-		return (1);
-	}
-	return (result);
+	ft_bzero(buf, BUFF_SIZE + 1);
+	if (read(fd, buf, 0) < 0)
+		return (-1);
+	if (fd_lines[fd] && ft_strchr(fd_lines[fd], '\n'))
+		return (ft_get_line(&fd_lines[fd], line));
+	ret = ft_readline(fd, &fd_lines[fd], buf, line);
+	return (ret);
 }

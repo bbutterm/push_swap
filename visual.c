@@ -39,7 +39,7 @@ void	pri(t_lis *p)
 	int w;
 
 	i = 0;
-	ft_putstr("stack a \n");
+	ft_putstr("|########|\n|stack  a| \n|########|\n");
 	while (i < p->a_size)
 	{
 		ft_putnbr(p->ari[i]);
@@ -50,7 +50,7 @@ void	pri(t_lis *p)
 		i++;
 	}
 	i = 0;
-	ft_putstr("stack b \n");
+	ft_putstr("|[][][][]|\n|stack  b| \n|[][][][]|\n");
 	while (i < p->b_size)
 	{
 		ft_putnbr(p->bri[i]);
