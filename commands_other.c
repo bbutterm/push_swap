@@ -14,24 +14,43 @@
 
 void	ss(t_lis *p)
 {
-	sa(p);
-	sb(p);
+	if (p->a_size > 0)
+		sa(p);
+	if (p->b_size > 0)
+		sb(p);
 	if (p->print == 1)
 		ft_putstr("ss\n");
 }
 
 void	rr(t_lis *p)
 {
-	ra(p);
-	rb(p);
+	if (p->a_size > 1)
+		ra(p);
+	if (p->b_size > 1)
+		rb(p);
 	if (p->print == 1)
 		ft_putstr("rr\n");
 }
 
 void	rrr(t_lis *p)
 {
-	rra(p);
-	rrb(p);
+	if (p->a_size > 1)
+		rra(p);
+	if (p->b_size > 1)
+		rrb(p);
 	if (p->print == 1)
 		ft_putstr("rrr\n");
+}
+
+int		check_digits(unsigned long long a)
+{
+	int i;
+
+	i = 0;
+	while (a / 10 > 1)
+	{
+		a = a / 10;
+		i++;
+	}
+	return (i);
 }

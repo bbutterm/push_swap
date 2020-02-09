@@ -25,7 +25,10 @@ void	checker(t_lis *p)
 		}
 		i++;
 	}
-	return (ft_putstr("OK\n"));
+	if (p->b_size == 0)
+		return (ft_putstr("OK\n"));
+	else
+		return (ft_putstr("KO\n"));
 }
 
 void	ifswap(t_lis *p, char *line)

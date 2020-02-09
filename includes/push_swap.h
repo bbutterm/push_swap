@@ -80,5 +80,6 @@ void				pushback(t_lis *p);
 void				vinit(t_lis *p, int *v, int size);
 void				pri(t_lis *p);
 char				*fill_str(char **argv, int i, char *str, char *space);
+int					check_digits(unsigned long long a);
 
 #endif
