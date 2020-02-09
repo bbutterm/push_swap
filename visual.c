@@ -19,6 +19,7 @@ void	visual(int i, t_lis *p)
 		while (i >= 0)
 		{
 			write(1, "\033[0;32m\xE2\x99\xBF ", 12);
+			write(1,"\033[0m",5);
 			i--;
 		}
 	}
@@ -39,7 +40,7 @@ void	pri(t_lis *p)
 	int w;
 
 	i = 0;
-	ft_putstr("|########|\n|stack  a| \n|########|\n");
+	ft_putstr("|[][][][]|\n|stack  a| \n|[][][][]|\n");
 	while (i < p->a_size)
 	{
 		ft_putnbr(p->ari[i]);

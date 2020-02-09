@@ -106,7 +106,7 @@ int		main(int argc, char **argv)
 	if (!(p.flags = setflags(argv[1])))
 		i = 1;
 	str = fill_str(argv, i, str, space);
-	if (str)
+	if (str && (str[0] != '\0'))
 		validate_of_stack(str, &p);
 	else
 		ft_error();

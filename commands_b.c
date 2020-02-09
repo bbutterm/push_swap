@@ -16,6 +16,8 @@ void	sb(t_lis *p)
 {
 	int b;
 
+    if (p->b_size < 1)
+        return ;
 	b = p->bri[0];
 	p->bri[0] = p->bri[1];
 	p->bri[1] = b;
@@ -28,6 +30,8 @@ void	rb(t_lis *p)
 	int i;
 	int k;
 
+    if (p->a_size < 1)
+        return ;
 	k = p->bri[0];
 	i = 0;
 	while (i < p->b_size - 1)
@@ -73,6 +77,8 @@ void	rrb(t_lis *p)
 	int i;
 	int k;
 
+    if (p->a_size < 1)
+        return ;
 	k = p->bri[p->b_size - 1];
 	i = p->b_size;
 	while (i > 0)

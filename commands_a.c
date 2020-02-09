@@ -16,6 +16,8 @@ void	sa(t_lis *p)
 {
 	int b;
 
+	if (p->a_size < 1)
+	    return ;
 	b = p->ari[0];
 	p->ari[0] = p->ari[1];
 	p->ari[1] = b;
@@ -28,6 +30,8 @@ void	ra(t_lis *p)
 	int i;
 	int k;
 
+    if (p->a_size < 1)
+        return ;
 	k = p->ari[0];
 	i = 0;
 	while (i < p->a_size - 1)
@@ -73,6 +77,8 @@ void	rra(t_lis *p)
 	int i;
 	int k;
 
+    if (p->a_size < 1)
+        return ;
 	k = p->ari[p->a_size - 1];
 	i = p->a_size;
 	while (--i > 0)

@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/bbutterm/Desktop/PUSH_SWAP/includes -I/Users/bbutterm/Desktop/PUSH_SWAP/includes/libft 
+C_INCLUDES = -I/Users/bbutterm/Desktop/asdasdasd/includes -I/Users/bbutterm/Desktop/asdasdasd/includes/libft 
 
