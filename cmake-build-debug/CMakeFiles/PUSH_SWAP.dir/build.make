@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bbutterm/Desktop/asdasdasd
+CMAKE_SOURCE_DIR = /Users/bbutterm/Desktop/FINALITY
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bbutterm/Desktop/asdasdasd/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bbutterm/Desktop/FINALITY/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PUSH_SWAP.dir/depend.make
@@ -59,939 +59,939 @@ include CMakeFiles/PUSH_SWAP.dir/flags.make
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_atoi.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_atoi.c.o: ../includes/libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_atoi.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_atoi.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_atoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_atoi.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_atoi.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_atoi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_atoi.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_atoi.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_atoi.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_atoi.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_atoi.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_atoi.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_atoi.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_atoi.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_atoi.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_atoi.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_bzero.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_bzero.c.o: ../includes/libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_bzero.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_bzero.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_bzero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_bzero.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_bzero.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_bzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_bzero.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_bzero.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_bzero.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_bzero.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_bzero.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_bzero.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_bzero.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_bzero.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_bzero.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_bzero.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalnum.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalnum.c.o: ../includes/libft/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalnum.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalnum.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalnum.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalnum.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isalnum.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalnum.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isalnum.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalnum.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isalnum.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalnum.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalnum.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isalnum.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalnum.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isalnum.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalnum.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalpha.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalpha.c.o: ../includes/libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalpha.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalpha.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalpha.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalpha.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isalpha.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalpha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalpha.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isalpha.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalpha.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isalpha.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalpha.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalpha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalpha.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isalpha.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalpha.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isalpha.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isalpha.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isascii.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isascii.c.o: ../includes/libft/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isascii.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isascii.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isascii.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isascii.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isascii.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isascii.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isascii.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isascii.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isascii.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isascii.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isascii.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isascii.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isascii.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isascii.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isascii.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isascii.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isascii.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isascii.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isdigit.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isdigit.c.o: ../includes/libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isdigit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isdigit.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isdigit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isdigit.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isdigit.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isdigit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isdigit.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isdigit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isdigit.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isdigit.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isdigit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isdigit.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isdigit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isdigit.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isdigit.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_islower.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_islower.c.o: ../includes/libft/ft_islower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_islower.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_islower.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_islower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_islower.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_islower.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_islower.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_islower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_islower.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_islower.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_islower.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_islower.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_islower.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_islower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_islower.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_islower.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_islower.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_islower.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_islower.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isnum.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isnum.c.o: ../includes/libft/ft_isnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isnum.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isnum.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isnum.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isnum.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isnum.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isnum.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isnum.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isnum.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isnum.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isnum.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isnum.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isnum.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isnum.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isnum.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isnum.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isprint.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isprint.c.o: ../includes/libft/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isprint.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isprint.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isprint.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isprint.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isprint.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isprint.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isprint.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isprint.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isprint.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isprint.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isprint.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isprint.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isprint.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isprint.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_isprint.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_itoa.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_itoa.c.o: ../includes/libft/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_itoa.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_itoa.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_itoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_itoa.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_itoa.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_itoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_itoa.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_itoa.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_itoa.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_itoa.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_itoa.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_itoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_itoa.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_itoa.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_itoa.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_itoa.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_itoa.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstadd.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstadd.c.o: ../includes/libft/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstadd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstadd.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstadd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstadd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstadd.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstadd.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstadd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstadd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstadd.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstadd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstadd.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstadd.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstadd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstadd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstadd.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstadd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstadd.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstadd.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdel.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdel.c.o: ../includes/libft/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdel.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdel.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstdel.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstdel.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstdel.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdel.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstdel.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstdel.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdel.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdelone.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdelone.c.o: ../includes/libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdelone.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdelone.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstdelone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdelone.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdelone.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstdelone.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdelone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdelone.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstdelone.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdelone.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstdelone.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdelone.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdelone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdelone.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstdelone.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdelone.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstdelone.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstdelone.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstiter.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstiter.c.o: ../includes/libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstiter.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstiter.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstiter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstiter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstiter.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstiter.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstiter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstiter.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstiter.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstiter.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstiter.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstiter.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstiter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstiter.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstiter.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstiter.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstiter.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstiter.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstmap.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstmap.c.o: ../includes/libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstmap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstmap.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstmap.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstmap.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstmap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstmap.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstmap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstmap.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstmap.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstmap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstmap.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstmap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstmap.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstmap.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstnew.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstnew.c.o: ../includes/libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstnew.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstnew.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstnew.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstnew.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstnew.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstnew.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstnew.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstnew.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstnew.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstnew.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstnew.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_lstnew.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memalloc.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memalloc.c.o: ../includes/libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memalloc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memalloc.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memalloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memalloc.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memalloc.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memalloc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memalloc.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memalloc.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memalloc.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memalloc.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memalloc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memalloc.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memalloc.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memalloc.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memalloc.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memccpy.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memccpy.c.o: ../includes/libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memccpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memccpy.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memccpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memccpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memccpy.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memccpy.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memccpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memccpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memccpy.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memccpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memccpy.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memccpy.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memccpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memccpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memccpy.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memccpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memccpy.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memccpy.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memchr.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memchr.c.o: ../includes/libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memchr.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memchr.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memchr.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memchr.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memchr.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memchr.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memchr.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memchr.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memchr.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcmp.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcmp.c.o: ../includes/libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcmp.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcmp.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memcmp.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memcmp.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memcmp.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcmp.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memcmp.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memcmp.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcmp.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcpy.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcpy.c.o: ../includes/libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcpy.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcpy.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memcpy.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memcpy.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memcpy.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcpy.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memcpy.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memcpy.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memcpy.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memdel.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memdel.c.o: ../includes/libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memdel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memdel.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memdel.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memdel.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memdel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memdel.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memdel.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memdel.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memdel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memdel.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memdel.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memdel.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memmove.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memmove.c.o: ../includes/libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memmove.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memmove.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memmove.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memmove.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memmove.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memmove.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memmove.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memmove.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memmove.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memmove.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memmove.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memmove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memmove.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memmove.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memmove.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memmove.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memmove.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memset.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memset.c.o: ../includes/libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memset.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memset.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memset.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memset.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memset.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memset.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memset.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memset.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memset.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memset.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memset.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memset.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memset.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memset.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_memset.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar.c.o: ../includes/libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putchar.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putchar.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putchar.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putchar.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putchar.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar_fd.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar_fd.c.o: ../includes/libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar_fd.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar_fd.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putchar_fd.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putchar_fd.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putchar_fd.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar_fd.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putchar_fd.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putchar_fd.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putchar_fd.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl.c.o: ../includes/libft/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putendl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putendl.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putendl.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putendl.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putendl.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putendl.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl_fd.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl_fd.c.o: ../includes/libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl_fd.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putendl_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl_fd.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putendl_fd.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putendl_fd.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putendl_fd.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl_fd.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putendl_fd.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putendl_fd.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putendl_fd.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr.c.o: ../includes/libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putnbr.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putnbr.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putnbr.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putnbr.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putnbr.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr_fd.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr_fd.c.o: ../includes/libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr_fd.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr_fd.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putnbr_fd.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putnbr_fd.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putnbr_fd.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr_fd.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putnbr_fd.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putnbr_fd.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putnbr_fd.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr.c.o: ../includes/libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putstr.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putstr.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putstr.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putstr.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putstr.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr_fd.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr_fd.c.o: ../includes/libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr_fd.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr_fd.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putstr_fd.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putstr_fd.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putstr_fd.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr_fd.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putstr_fd.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putstr_fd.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_putstr_fd.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcat.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcat.c.o: ../includes/libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcat.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcat.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strcat.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strcat.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strcat.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcat.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strcat.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strcat.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcat.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strchr.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strchr.c.o: ../includes/libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strchr.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strchr.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strchr.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strchr.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strchr.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strchr.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strchr.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strchr.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strchr.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strclr.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strclr.c.o: ../includes/libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strclr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strclr.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strclr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strclr.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strclr.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strclr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strclr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strclr.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strclr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strclr.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strclr.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strclr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strclr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strclr.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strclr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strclr.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strclr.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcmp.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcmp.c.o: ../includes/libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcmp.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcmp.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strcmp.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strcmp.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strcmp.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcmp.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strcmp.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strcmp.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcmp.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcpy.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcpy.c.o: ../includes/libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcpy.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcpy.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strcpy.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strcpy.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strcpy.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcpy.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strcpy.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strcpy.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strcpy.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdel.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdel.c.o: ../includes/libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdel.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdel.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strdel.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strdel.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strdel.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdel.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strdel.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strdel.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdel.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdup.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdup.c.o: ../includes/libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdup.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdup.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdup.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strdup.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdup.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strdup.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdup.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strdup.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdup.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdup.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strdup.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdup.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strdup.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strdup.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strequ.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strequ.c.o: ../includes/libft/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strequ.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strequ.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strequ.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strequ.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strequ.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strequ.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strequ.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strequ.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strequ.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strequ.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strequ.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strequ.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strequ.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strequ.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striter.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striter.c.o: ../includes/libft/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striter.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striter.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_striter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striter.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_striter.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striter.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_striter.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striter.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_striter.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striter.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striter.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_striter.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striter.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_striter.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striter.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striteri.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striteri.c.o: ../includes/libft/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striteri.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striteri.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_striteri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striteri.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striteri.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_striteri.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striteri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striteri.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_striteri.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striteri.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_striteri.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striteri.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striteri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striteri.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_striteri.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striteri.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_striteri.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_striteri.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strjoin.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strjoin.c.o: ../includes/libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strjoin.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strjoin.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strjoin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strjoin.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strjoin.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strjoin.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strjoin.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strjoin.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strjoin.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strjoin.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strjoin.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strjoin.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strjoin.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strjoin.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strjoin.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlcat.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlcat.c.o: ../includes/libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlcat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlcat.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strlcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlcat.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strlcat.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlcat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strlcat.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlcat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strlcat.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlcat.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlcat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strlcat.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlcat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strlcat.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlcat.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlen.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlen.c.o: ../includes/libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlen.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlen.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlen.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strlen.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlen.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strlen.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlen.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strlen.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlen.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlen.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strlen.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlen.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strlen.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strlen.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmap.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmap.c.o: ../includes/libft/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmap.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmap.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strmap.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strmap.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strmap.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmap.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strmap.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strmap.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmap.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmapi.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmapi.c.o: ../includes/libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmapi.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmapi.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strmapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmapi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmapi.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strmapi.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmapi.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strmapi.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmapi.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strmapi.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmapi.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmapi.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strmapi.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmapi.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strmapi.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strmapi.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncat.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncat.c.o: ../includes/libft/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncat.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncat.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strncat.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strncat.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strncat.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncat.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strncat.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strncat.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncat.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncmp.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncmp.c.o: ../includes/libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncmp.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncmp.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strncmp.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strncmp.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strncmp.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncmp.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strncmp.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strncmp.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncmp.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncpy.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncpy.c.o: ../includes/libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncpy.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncpy.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strncpy.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strncpy.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strncpy.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncpy.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strncpy.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strncpy.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strncpy.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnequ.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnequ.c.o: ../includes/libft/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnequ.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnequ.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strnequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnequ.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strnequ.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnequ.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strnequ.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnequ.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strnequ.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnequ.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnequ.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strnequ.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnequ.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strnequ.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnequ.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnew.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnew.c.o: ../includes/libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnew.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnew.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnew.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strnew.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnew.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strnew.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strnew.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnew.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnew.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strnew.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strnew.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnew.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnstr.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnstr.c.o: ../includes/libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnstr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnstr.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strnstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnstr.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strnstr.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnstr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strnstr.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strnstr.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnstr.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnstr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strnstr.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strnstr.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strnstr.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strrchr.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strrchr.c.o: ../includes/libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strrchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strrchr.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strrchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strrchr.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strrchr.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strrchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strrchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strrchr.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strrchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strrchr.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strrchr.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strrchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strrchr.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strrchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strrchr.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strrchr.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsplit.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsplit.c.o: ../includes/libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsplit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsplit.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsplit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsplit.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strsplit.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsplit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsplit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strsplit.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsplit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strsplit.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsplit.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsplit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strsplit.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsplit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strsplit.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsplit.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strstr.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strstr.c.o: ../includes/libft/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strstr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strstr.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strstr.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strstr.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strstr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strstr.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strstr.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strstr.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strstr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strstr.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strstr.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strstr.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsub.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsub.c.o: ../includes/libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsub.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsub.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsub.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsub.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strsub.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsub.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strsub.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsub.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strsub.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsub.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsub.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strsub.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsub.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strsub.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strsub.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strtrim.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strtrim.c.o: ../includes/libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strtrim.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strtrim.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strtrim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strtrim.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strtrim.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strtrim.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strtrim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strtrim.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strtrim.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strtrim.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strtrim.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strtrim.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strtrim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strtrim.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strtrim.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strtrim.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strtrim.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_strtrim.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_tolower.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_tolower.c.o: ../includes/libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_tolower.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_tolower.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_tolower.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_tolower.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_tolower.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_tolower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_tolower.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_tolower.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_tolower.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_tolower.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_tolower.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_tolower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_tolower.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_tolower.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_tolower.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_tolower.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_tolower.c.s
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_toupper.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_toupper.c.o: ../includes/libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_toupper.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_toupper.c.o   -c /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_toupper.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_toupper.c.o   -c /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_toupper.c
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_toupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_toupper.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_toupper.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_toupper.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_toupper.c > CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_toupper.c.i
 
 CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_toupper.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_toupper.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_toupper.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/includes/libft/ft_toupper.c -o CMakeFiles/PUSH_SWAP.dir/includes/libft/ft_toupper.c.s
 
 CMakeFiles/PUSH_SWAP.dir/checker.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/checker.c.o: ../checker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/PUSH_SWAP.dir/checker.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/checker.c.o   -c /Users/bbutterm/Desktop/asdasdasd/checker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/PUSH_SWAP.dir/checker.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/checker.c.o   -c /Users/bbutterm/Desktop/FINALITY/checker.c
 
 CMakeFiles/PUSH_SWAP.dir/checker.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/checker.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/checker.c > CMakeFiles/PUSH_SWAP.dir/checker.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/checker.c > CMakeFiles/PUSH_SWAP.dir/checker.c.i
 
 CMakeFiles/PUSH_SWAP.dir/checker.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/checker.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/checker.c -o CMakeFiles/PUSH_SWAP.dir/checker.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/checker.c -o CMakeFiles/PUSH_SWAP.dir/checker.c.s
 
 CMakeFiles/PUSH_SWAP.dir/commands_a.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/commands_a.c.o: ../commands_a.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/PUSH_SWAP.dir/commands_a.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/commands_a.c.o   -c /Users/bbutterm/Desktop/asdasdasd/commands_a.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/PUSH_SWAP.dir/commands_a.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/commands_a.c.o   -c /Users/bbutterm/Desktop/FINALITY/commands_a.c
 
 CMakeFiles/PUSH_SWAP.dir/commands_a.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/commands_a.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/commands_a.c > CMakeFiles/PUSH_SWAP.dir/commands_a.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/commands_a.c > CMakeFiles/PUSH_SWAP.dir/commands_a.c.i
 
 CMakeFiles/PUSH_SWAP.dir/commands_a.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/commands_a.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/commands_a.c -o CMakeFiles/PUSH_SWAP.dir/commands_a.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/commands_a.c -o CMakeFiles/PUSH_SWAP.dir/commands_a.c.s
 
 CMakeFiles/PUSH_SWAP.dir/commands_b.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/commands_b.c.o: ../commands_b.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/PUSH_SWAP.dir/commands_b.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/commands_b.c.o   -c /Users/bbutterm/Desktop/asdasdasd/commands_b.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/PUSH_SWAP.dir/commands_b.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/commands_b.c.o   -c /Users/bbutterm/Desktop/FINALITY/commands_b.c
 
 CMakeFiles/PUSH_SWAP.dir/commands_b.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/commands_b.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/commands_b.c > CMakeFiles/PUSH_SWAP.dir/commands_b.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/commands_b.c > CMakeFiles/PUSH_SWAP.dir/commands_b.c.i
 
 CMakeFiles/PUSH_SWAP.dir/commands_b.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/commands_b.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/commands_b.c -o CMakeFiles/PUSH_SWAP.dir/commands_b.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/commands_b.c -o CMakeFiles/PUSH_SWAP.dir/commands_b.c.s
 
 CMakeFiles/PUSH_SWAP.dir/commands_other.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/commands_other.c.o: ../commands_other.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/PUSH_SWAP.dir/commands_other.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/commands_other.c.o   -c /Users/bbutterm/Desktop/asdasdasd/commands_other.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/PUSH_SWAP.dir/commands_other.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/commands_other.c.o   -c /Users/bbutterm/Desktop/FINALITY/commands_other.c
 
 CMakeFiles/PUSH_SWAP.dir/commands_other.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/commands_other.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/commands_other.c > CMakeFiles/PUSH_SWAP.dir/commands_other.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/commands_other.c > CMakeFiles/PUSH_SWAP.dir/commands_other.c.i
 
 CMakeFiles/PUSH_SWAP.dir/commands_other.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/commands_other.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/commands_other.c -o CMakeFiles/PUSH_SWAP.dir/commands_other.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/commands_other.c -o CMakeFiles/PUSH_SWAP.dir/commands_other.c.s
 
 CMakeFiles/PUSH_SWAP.dir/get_next_line.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/get_next_line.c.o: ../get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/PUSH_SWAP.dir/get_next_line.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/get_next_line.c.o   -c /Users/bbutterm/Desktop/asdasdasd/get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/PUSH_SWAP.dir/get_next_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/get_next_line.c.o   -c /Users/bbutterm/Desktop/FINALITY/get_next_line.c
 
 CMakeFiles/PUSH_SWAP.dir/get_next_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/get_next_line.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/get_next_line.c > CMakeFiles/PUSH_SWAP.dir/get_next_line.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/get_next_line.c > CMakeFiles/PUSH_SWAP.dir/get_next_line.c.i
 
 CMakeFiles/PUSH_SWAP.dir/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/get_next_line.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/get_next_line.c -o CMakeFiles/PUSH_SWAP.dir/get_next_line.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/get_next_line.c -o CMakeFiles/PUSH_SWAP.dir/get_next_line.c.s
 
 CMakeFiles/PUSH_SWAP.dir/len_nbr.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/len_nbr.c.o: ../len_nbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/PUSH_SWAP.dir/len_nbr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/len_nbr.c.o   -c /Users/bbutterm/Desktop/asdasdasd/len_nbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/PUSH_SWAP.dir/len_nbr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/len_nbr.c.o   -c /Users/bbutterm/Desktop/FINALITY/len_nbr.c
 
 CMakeFiles/PUSH_SWAP.dir/len_nbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/len_nbr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/len_nbr.c > CMakeFiles/PUSH_SWAP.dir/len_nbr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/len_nbr.c > CMakeFiles/PUSH_SWAP.dir/len_nbr.c.i
 
 CMakeFiles/PUSH_SWAP.dir/len_nbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/len_nbr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/len_nbr.c -o CMakeFiles/PUSH_SWAP.dir/len_nbr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/len_nbr.c -o CMakeFiles/PUSH_SWAP.dir/len_nbr.c.s
 
 CMakeFiles/PUSH_SWAP.dir/opt_operations.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/opt_operations.c.o: ../opt_operations.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/PUSH_SWAP.dir/opt_operations.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/opt_operations.c.o   -c /Users/bbutterm/Desktop/asdasdasd/opt_operations.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/PUSH_SWAP.dir/opt_operations.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/opt_operations.c.o   -c /Users/bbutterm/Desktop/FINALITY/opt_operations.c
 
 CMakeFiles/PUSH_SWAP.dir/opt_operations.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/opt_operations.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/opt_operations.c > CMakeFiles/PUSH_SWAP.dir/opt_operations.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/opt_operations.c > CMakeFiles/PUSH_SWAP.dir/opt_operations.c.i
 
 CMakeFiles/PUSH_SWAP.dir/opt_operations.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/opt_operations.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/opt_operations.c -o CMakeFiles/PUSH_SWAP.dir/opt_operations.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/opt_operations.c -o CMakeFiles/PUSH_SWAP.dir/opt_operations.c.s
 
 CMakeFiles/PUSH_SWAP.dir/push_swap.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/push_swap.c.o: ../push_swap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/PUSH_SWAP.dir/push_swap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/push_swap.c.o   -c /Users/bbutterm/Desktop/asdasdasd/push_swap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/PUSH_SWAP.dir/push_swap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/push_swap.c.o   -c /Users/bbutterm/Desktop/FINALITY/push_swap.c
 
 CMakeFiles/PUSH_SWAP.dir/push_swap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/push_swap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/push_swap.c > CMakeFiles/PUSH_SWAP.dir/push_swap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/push_swap.c > CMakeFiles/PUSH_SWAP.dir/push_swap.c.i
 
 CMakeFiles/PUSH_SWAP.dir/push_swap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/push_swap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/push_swap.c -o CMakeFiles/PUSH_SWAP.dir/push_swap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/push_swap.c -o CMakeFiles/PUSH_SWAP.dir/push_swap.c.s
 
 CMakeFiles/PUSH_SWAP.dir/sorts.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/sorts.c.o: ../sorts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/PUSH_SWAP.dir/sorts.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/sorts.c.o   -c /Users/bbutterm/Desktop/asdasdasd/sorts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/PUSH_SWAP.dir/sorts.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/sorts.c.o   -c /Users/bbutterm/Desktop/FINALITY/sorts.c
 
 CMakeFiles/PUSH_SWAP.dir/sorts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/sorts.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/sorts.c > CMakeFiles/PUSH_SWAP.dir/sorts.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/sorts.c > CMakeFiles/PUSH_SWAP.dir/sorts.c.i
 
 CMakeFiles/PUSH_SWAP.dir/sorts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/sorts.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/sorts.c -o CMakeFiles/PUSH_SWAP.dir/sorts.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/sorts.c -o CMakeFiles/PUSH_SWAP.dir/sorts.c.s
 
 CMakeFiles/PUSH_SWAP.dir/sum_ops.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/sum_ops.c.o: ../sum_ops.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/PUSH_SWAP.dir/sum_ops.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/sum_ops.c.o   -c /Users/bbutterm/Desktop/asdasdasd/sum_ops.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/PUSH_SWAP.dir/sum_ops.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/sum_ops.c.o   -c /Users/bbutterm/Desktop/FINALITY/sum_ops.c
 
 CMakeFiles/PUSH_SWAP.dir/sum_ops.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/sum_ops.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/sum_ops.c > CMakeFiles/PUSH_SWAP.dir/sum_ops.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/sum_ops.c > CMakeFiles/PUSH_SWAP.dir/sum_ops.c.i
 
 CMakeFiles/PUSH_SWAP.dir/sum_ops.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/sum_ops.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/sum_ops.c -o CMakeFiles/PUSH_SWAP.dir/sum_ops.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/sum_ops.c -o CMakeFiles/PUSH_SWAP.dir/sum_ops.c.s
 
 CMakeFiles/PUSH_SWAP.dir/validation.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/validation.c.o: ../validation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/PUSH_SWAP.dir/validation.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/validation.c.o   -c /Users/bbutterm/Desktop/asdasdasd/validation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/PUSH_SWAP.dir/validation.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/validation.c.o   -c /Users/bbutterm/Desktop/FINALITY/validation.c
 
 CMakeFiles/PUSH_SWAP.dir/validation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/validation.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/validation.c > CMakeFiles/PUSH_SWAP.dir/validation.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/validation.c > CMakeFiles/PUSH_SWAP.dir/validation.c.i
 
 CMakeFiles/PUSH_SWAP.dir/validation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/validation.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/validation.c -o CMakeFiles/PUSH_SWAP.dir/validation.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/validation.c -o CMakeFiles/PUSH_SWAP.dir/validation.c.s
 
 CMakeFiles/PUSH_SWAP.dir/visual.c.o: CMakeFiles/PUSH_SWAP.dir/flags.make
 CMakeFiles/PUSH_SWAP.dir/visual.c.o: ../visual.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/PUSH_SWAP.dir/visual.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/visual.c.o   -c /Users/bbutterm/Desktop/asdasdasd/visual.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/PUSH_SWAP.dir/visual.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PUSH_SWAP.dir/visual.c.o   -c /Users/bbutterm/Desktop/FINALITY/visual.c
 
 CMakeFiles/PUSH_SWAP.dir/visual.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PUSH_SWAP.dir/visual.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/asdasdasd/visual.c > CMakeFiles/PUSH_SWAP.dir/visual.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bbutterm/Desktop/FINALITY/visual.c > CMakeFiles/PUSH_SWAP.dir/visual.c.i
 
 CMakeFiles/PUSH_SWAP.dir/visual.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PUSH_SWAP.dir/visual.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/asdasdasd/visual.c -o CMakeFiles/PUSH_SWAP.dir/visual.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bbutterm/Desktop/FINALITY/visual.c -o CMakeFiles/PUSH_SWAP.dir/visual.c.s
 
 # Object files for target PUSH_SWAP
 PUSH_SWAP_OBJECTS = \
@@ -1145,7 +1145,7 @@ PUSH_SWAP: CMakeFiles/PUSH_SWAP.dir/validation.c.o
 PUSH_SWAP: CMakeFiles/PUSH_SWAP.dir/visual.c.o
 PUSH_SWAP: CMakeFiles/PUSH_SWAP.dir/build.make
 PUSH_SWAP: CMakeFiles/PUSH_SWAP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking C executable PUSH_SWAP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking C executable PUSH_SWAP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PUSH_SWAP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1158,6 +1158,6 @@ CMakeFiles/PUSH_SWAP.dir/clean:
 .PHONY : CMakeFiles/PUSH_SWAP.dir/clean
 
 CMakeFiles/PUSH_SWAP.dir/depend:
-	cd /Users/bbutterm/Desktop/asdasdasd/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bbutterm/Desktop/asdasdasd /Users/bbutterm/Desktop/asdasdasd /Users/bbutterm/Desktop/asdasdasd/cmake-build-debug /Users/bbutterm/Desktop/asdasdasd/cmake-build-debug /Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/CMakeFiles/PUSH_SWAP.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/bbutterm/Desktop/FINALITY/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bbutterm/Desktop/FINALITY /Users/bbutterm/Desktop/FINALITY /Users/bbutterm/Desktop/FINALITY/cmake-build-debug /Users/bbutterm/Desktop/FINALITY/cmake-build-debug /Users/bbutterm/Desktop/FINALITY/cmake-build-debug/CMakeFiles/PUSH_SWAP.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PUSH_SWAP.dir/depend
 

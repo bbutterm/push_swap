@@ -8,44 +8,44 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug"/>
+				<Option working_dir="/Users/bbutterm/Desktop/FINALITY/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug"/>
+				<Option working_dir="/Users/bbutterm/Desktop/FINALITY/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug"/>
+				<Option working_dir="/Users/bbutterm/Desktop/FINALITY/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PUSH_SWAP">
-				<Option output="/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/PUSH_SWAP" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug"/>
+				<Option output="/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/PUSH_SWAP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bbutterm/Desktop/FINALITY/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/bbutterm/Desktop/asdasdasd/includes"/>
-					<Add directory="/Users/bbutterm/Desktop/asdasdasd/includes/libft"/>
+					<Add directory="/Users/bbutterm/Desktop/FINALITY/includes"/>
+					<Add directory="/Users/bbutterm/Desktop/FINALITY/includes/libft"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -54,21 +54,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 PUSH_SWAP"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 PUSH_SWAP"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PUSH_SWAP/fast">
-				<Option output="/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/PUSH_SWAP" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug"/>
+				<Option output="/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/PUSH_SWAP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bbutterm/Desktop/FINALITY/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/bbutterm/Desktop/asdasdasd/includes"/>
-					<Add directory="/Users/bbutterm/Desktop/asdasdasd/includes/libft"/>
+					<Add directory="/Users/bbutterm/Desktop/FINALITY/includes"/>
+					<Add directory="/Users/bbutterm/Desktop/FINALITY/includes/libft"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -77,239 +77,239 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 PUSH_SWAP/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/asdasdasd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 PUSH_SWAP/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bbutterm/Desktop/FINALITY/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/checker.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/checker.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/commands_a.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/commands_a.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/commands_b.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/commands_b.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/commands_other.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/commands_other.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/get_next_line.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/get_next_line.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/get_next_line.h">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/get_next_line.h">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_atoi.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_atoi.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_bzero.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_bzero.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isalnum.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isalnum.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isalpha.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isalpha.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isascii.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isascii.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isdigit.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isdigit.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_islower.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_islower.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isnum.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isnum.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_isprint.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_isprint.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_itoa.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_itoa.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstadd.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstadd.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstdel.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstdel.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstdelone.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstdelone.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstiter.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstiter.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstmap.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstmap.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_lstnew.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_lstnew.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memalloc.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memalloc.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memccpy.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memccpy.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memchr.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memchr.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memcmp.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memcmp.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memcpy.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memcpy.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memdel.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memdel.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memmove.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memmove.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_memset.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_memset.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putchar.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putchar.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putchar_fd.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putchar_fd.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putendl.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putendl.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putendl_fd.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putendl_fd.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putnbr.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putnbr.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putnbr_fd.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putnbr_fd.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putstr.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putstr.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_putstr_fd.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_putstr_fd.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strcat.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strcat.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strchr.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strchr.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strclr.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strclr.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strcmp.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strcmp.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strcpy.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strcpy.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strdel.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strdel.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strdup.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strdup.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strequ.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strequ.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_striter.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_striter.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_striteri.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_striteri.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strjoin.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strjoin.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strlcat.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strlcat.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strlen.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strlen.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strmap.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strmap.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strmapi.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strmapi.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strncat.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strncat.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strncmp.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strncmp.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strncpy.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strncpy.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strnequ.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strnequ.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strnew.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strnew.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strnstr.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strnstr.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strrchr.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strrchr.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strsplit.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strsplit.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strstr.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strstr.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strsub.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strsub.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_strtrim.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_strtrim.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_tolower.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_tolower.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/ft_toupper.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/ft_toupper.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/libft/libft.h">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/libft/libft.h">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/includes/push_swap.h">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/includes/push_swap.h">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/len_nbr.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/len_nbr.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/opt_operations.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/opt_operations.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/push_swap.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/push_swap.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/sorts.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/sorts.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/sum_ops.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/sum_ops.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/validation.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/validation.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/visual.c">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/visual.c">
 			<Option target="PUSH_SWAP"/>
 		</Unit>
-		<Unit filename="/Users/bbutterm/Desktop/asdasdasd/CMakeLists.txt">
+		<Unit filename="/Users/bbutterm/Desktop/FINALITY/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

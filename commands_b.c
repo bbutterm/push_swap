@@ -77,7 +77,7 @@ void	rrb(t_lis *p)
 	int i;
 	int k;
 
-    if (p->a_size < 1)
+    if (p->b_size < 1)
         return ;
 	k = p->bri[p->b_size - 1];
 	i = p->b_size;
