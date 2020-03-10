@@ -58,6 +58,7 @@ void				rra(t_lis *p);
 void				rrb(t_lis *p);
 void				pa(t_lis *p);
 void				pb(t_lis *p);
+void				rr(t_lis *p);
 void				rrr(t_lis *p);
 void				final_sort(t_lis *p);
 void				sortmid(t_lis *p);

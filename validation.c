@@ -35,7 +35,7 @@ int			atoi_for_ps(const char *str)
 	if (nbr > 2147483647 || nbr < -2147483648 ||
 		i > 10 || check_digits(nbr) > 10)
 		ft_error();
-    nbr = nbr * negative;
+	nbr = nbr * negative;
 	return ((int)nbr);
 }
 

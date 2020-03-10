@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/bbutterm/Desktop/FINALITY/includes -I/Users/bbutterm/Desktop/FINALITY/includes/libft 
+C_INCLUDES = -I/Users/bbutterm/Desktop/GG/includes -I/Users/bbutterm/Desktop/GG/includes/libft 
 

@@ -53,11 +53,10 @@ void	ifswap(t_lis *p, char *line)
 		rrb(p);
 	else if (!ft_strcmp(line, "rrr"))
 		rrr(p);
+	else if (!ft_strcmp(line, "rr"))
+		rr(p);
 	else
-	{
-		write(1, "Error\n", 6);
-		exit(0);
-	}
+		ft_error();
 }
 
 void	swap(t_lis *p)

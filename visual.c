@@ -19,7 +19,7 @@ void	visual(int i, t_lis *p)
 		while (i >= 0)
 		{
 			write(1, "\033[0;32m\xE2\x99\xBF ", 12);
-			write(1,"\033[0m",5);
+			write(1, "\033[0m", 5);
 			i--;
 		}
 	}
