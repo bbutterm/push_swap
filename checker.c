@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   checker.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbutterm <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jijerde <jijerde@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/13 19:16:36 by bbutterm          #+#    #+#             */
-/*   Updated: 2020/02/13 19:16:38 by bbutterm         ###   ########.fr       */
+/*   Updated: 2020/03/17 14:38:14 by jijerde          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,7 +68,10 @@ void	swap(t_lis *p)
 		ifswap(p, line);
 		if (p->flags > 0)
 		{
-			pri(p);
+			printf("pered init ncur\n");
+			init_ncur(p);
+			printf("posle init ncur\n");
+			//pri(p);
 		}
 		p->ops++;
 		ft_strdel(&line);
@@ -112,5 +115,6 @@ int		main(int argc, char **argv)
 	push_backs(&p);
 	vinit(&p, p.v, p.mlen);
 	swap(&p);
+	endwin();
 	exit(0);
 }

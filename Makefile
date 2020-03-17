@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: bbutterm <bbutterm@student.42.fr>          +#+  +:+       +#+         #
+#    By: jijerde <jijerde@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/20 15:31:55 by bbutterm          #+#    #+#              #
-#    Updated: 2020/02/08 00:42:29 by jijerde          ###   ########.fr        #
+#    Updated: 2020/03/17 13:32:45 by jijerde          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ SRC1 	= push_swap.c validation.c commands_a.c commands_b.c commands_other.c \
 		  len_nbr.c opt_operations.c sorts.c sum_ops.c \
 
 SRC2 	= checker.c validation.c commands_a.c commands_b.c commands_other.c \
-		  visual.c len_nbr.c sum_ops.c opt_operations.c sorts.c \
+		  visual.c vis.c len_nbr.c sum_ops.c opt_operations.c sorts.c \
 		  get_next_line.c \
 
 OBJSFD 	= temporary
@@ -56,7 +56,7 @@ $(NAME1): $(OBJS1) $(LIBFT) ./includes/push_swap.h
 	gcc -g $(OBJS1) $(LIB_BINARY) -o $@
 
 $(NAME2): $(OBJS2) $(LIBFT) ./includes/push_swap.h ./includes/get_next_line.h
-	gcc -g $(OBJS2) $(LIB_BINARY) -o $@
+	gcc -g -lncurses $(OBJS2) $(LIB_BINARY) -o $@
 
 clean:
 	/bin/rm -f $(OBJS)

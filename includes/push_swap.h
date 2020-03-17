@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbutterm <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jijerde <jijerde@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/08 11:14:07 by bbutterm          #+#    #+#             */
-/*   Updated: 2020/02/09 19:09:08 by bbutterm         ###   ########.fr       */
+/*   Updated: 2020/03/17 14:48:29 by jijerde          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,9 @@
 # include <unistd.h>
 # include "libft/libft.h"
 # include "get_next_line.h"
+#include <ncurses.h>
+#include <curses.h>
+#include <errno.h>
 
 typedef struct		s_vlist
 {
@@ -77,6 +80,7 @@ int					init(t_lis *p, int argc);
 int					setflags(char *s);
 void				ft_error(void);
 
+void				init_ncur(t_lis *p);
 void				pushback(t_lis *p);
 void				vinit(t_lis *p, int *v, int size);
 void				pri(t_lis *p);

@@ -3,24 +3,51 @@
 /*                                                        :::      ::::::::   */
 /*   visual.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbutterm <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: jijerde <jijerde@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/13 19:18:09 by bbutterm          #+#    #+#             */
-/*   Updated: 2020/02/13 19:18:10 by bbutterm         ###   ########.fr       */
+/*   Updated: 2020/03/17 14:28:56 by jijerde          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	visual(int i, t_lis *p)
+void	visual_b(int i, t_lis *p)
 {
+	int x;
+
+	x = 3;
 	if (p->flags == 2)
 	{
 		while (i >= 0)
 		{
-			write(1, "\033[0;32m\xE2\x99\xBF ", 12);
-			write(1, "\033[0m", 5);
+			attron(COLOR_PAIR(8) | A_BOLD);
+			move(x, COLS - COLS/4 - 7);
+			addch(ACS_BULLET);
+			//write(1, "\033[0;32m\xE2\x99\xBF ", 12);
+			//write(1, "\033[0m", 5);
 			i--;
+			x++;
+		}
+	}
+}
+
+void	visual(int i, t_lis *p)
+{
+	int x;
+
+	x = 3;
+	if (p->flags == 2)
+	{
+		while (i >= 0)
+		{
+			attron(COLOR_PAIR(8) | A_BOLD);
+			move(x, COLS/4);
+			addch(ACS_BULLET);
+			//write(1, "\033[0;32m\xE2\x99\xBF ", 12);
+			//write(1, "\033[0m", 5);
+			i--;
+			x++;
 		}
 	}
 }
@@ -34,14 +61,45 @@ int		weight(t_lisv *vis, int num)
 	return (vis->weight);
 }
 
+/*void	pri(t_lis *p)
+{
+	int i;
+	//int w;
+
+	i = 0;
+	ft_putstr("|[][][][]||stack  a| |[][][][]|");
+	ft_putstr("      ");
+	ft_putstr("|[][][][]||stack  b| |[][][][]|\n");
+
+	while (i < p->a_size)
+	{
+		if (p->ari[i])
+			ft_putnbr(p->ari[i]);
+		if (p->ari[i] && p->bri[i])
+		{
+			ft_putstr("                  ");
+			ft_putnbr(p->bri[i]);
+		}
+		else if (!p->ari[i] && p->bri[i])
+		{
+			ft_putstr("                                        ");
+			ft_putnbr(p->bri[i]);
+		}
+		write(1,"\n",1);
+		i++;
+	}
+}*/
+
 void	pri(t_lis *p)
 {
 	int i;
 	int w;
+	int j;
 
 	i = 0;
-	ft_putstr("|[][][][]|\n|stack  a| \n|[][][][]|\n");
-	while (i < p->a_size)
+	j = 0;
+	//ft_putstr("|[][][][]|\n|stack  a| \n|[][][][]|\n");
+	/*while (i < p->a_size)
 	{
 		ft_putnbr(p->ari[i]);
 		write(1, "\n", 1);
@@ -50,8 +108,6 @@ void	pri(t_lis *p)
 		write(1, "\n", 1);
 		i++;
 	}
-	i = 0;
-	ft_putstr("|[][][][]|\n|stack  b| \n|[][][][]|\n");
 	while (i < p->b_size)
 	{
 		ft_putnbr(p->bri[i]);
@@ -60,6 +116,26 @@ void	pri(t_lis *p)
 		visual(w, p);
 		write(1, "\n", 1);
 		i++;
+	}*/
+	mvprintw(3, COLS/4, "ya za ciklom");
+	while (1)
+	{
+		if (i < p->a_size)
+		{
+			mvprintw(3, COLS/4, "priv");
+			w = weight(p->vis, p->ari[i]);
+			visual(w, p);
+			i++;
+		}
+		if (j < p->b_size)
+		{
+			mvprintw(3, COLS - COLS/4 - 7, "pok");
+			w = weight(p->vis, p->bri[j]);
+			visual_b(w, p);
+			j++;
+		}
+		if ((i >= p->a_size) && (j >= p->b_size))
+			break ;
 	}
 }
 
